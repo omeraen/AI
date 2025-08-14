@@ -1,0 +1,1438 @@
+{"instruction": "открой новую вкладку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 't')"}
+{"instruction": "создай пожалуйста новую вкладку в браузере", "output": "import pyautogui\npyautogui.hotkey('ctrl', 't')"}
+{"instruction": "мне нужна еще одна вкладка", "output": "import pyautogui\npyautogui.hotkey('ctrl', 't')"}
+{"instruction": "закрой текущую вкладку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'w')"}
+{"instruction": "убери эту вкладку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'w')"}
+{"instruction": "можешь закрыть эту страницу?", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'w')"}
+{"instruction": "верни закрытую вкладку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 't')"}
+{"instruction": "я случайно закрыл вкладку, открой ее снова", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 't')"}
+{"instruction": "переключись на следующую вкладку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'tab')"}
+{"instruction": "покажи вкладку справа", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'tab')"}
+{"instruction": "переключись на предыдущую вкладку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'tab')"}
+{"instruction": "покажи вкладку слева", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'tab')"}
+{"instruction": "перейди на первую вкладку", "output": "import pyautogui\npyautogui.hotkey('ctrl', '1')"}
+{"instruction": "перейди на пятую вкладку", "output": "import pyautogui\npyautogui.hotkey('ctrl', '5')"}
+{"instruction": "перейди на последнюю вкладку", "output": "import pyautogui\npyautogui.hotkey('ctrl', '9')"}
+{"instruction": "обнови страницу", "output": "import pyautogui\npyautogui.hotkey('f5')"}
+{"instruction": "перезагрузи эту страницу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'r')"}
+{"instruction": "вернись на страницу назад", "output": "import pyautogui\npyautogui.hotkey('alt', 'left')"}
+{"instruction": "предыдущая страница", "output": "import pyautogui\npyautogui.hotkey('alt', 'left')"}
+{"instruction": "иди вперед", "output": "import pyautogui\npyautogui.hotkey('alt', 'right')"}
+{"instruction": "следующая страница в истории", "output": "import pyautogui\npyautogui.hotkey('alt', 'right')"}
+{"instruction": "открой новое окно браузера", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'n')"}
+{"instruction": "открой новое окно в режиме инкогнито", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'n')"}
+{"instruction": "покажи историю загрузок", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'j')"}
+{"instruction": "покажи мою историю посещений", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'h')"}
+{"instruction": "перейди в адресную строку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'l')"}
+{"instruction": "активируй строку поиска", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'l')"}
+{"instruction": "найди в гугле погоду в ташкенте", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write('pogoda v tashkente')\npyautogui.press('enter')"}
+{"instruction": "загугли курс доллара", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write('kurs dollara')\npyautogui.press('enter')"}
+{"instruction": "открой сайт стима", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write('store.steampowered.com')\npyautogui.press('enter')"}
+{"instruction": "перейди на гитхаб", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write('github.com')\npyautogui.press('enter')"}
+{"instruction": "найди на странице слово 'важно'", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')\npyautogui.write('vazhno')"}
+{"instruction": "продолжи поиск", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'g')"}
+{"instruction": "ищи предыдущее совпадение", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'g')"}
+{"instruction": "увеличь масштаб страницы", "output": "import pyautogui\npyautogui.hotkey('ctrl', '+')"}
+{"instruction": "уменьши масштаб", "output": "import pyautogui\npyautogui.hotkey('ctrl', '-')"}
+{"instruction": "сбрось масштаб до стандартного", "output": "import pyautogui\npyautogui.hotkey('ctrl', '0')"}
+{"instruction": "открой ютуб", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write('youtube.com')\npyautogui.press('enter')"}
+{"instruction": "активируй поиск на ютубе", "output": "import pyautogui\npyautogui.press('/')"}
+{"instruction": "найди на ютубе 'лучшие моменты nfl'", "output": "import pyautogui\nimport time\npyautogui.press('/')\ntime.sleep(0.5)\npyautogui.write('luchshie momenty nfl')\npyautogui.press('enter')"}
+{"instruction": "поставь видео на паузу", "output": "import pyautogui\npyautogui.press('k')"}
+{"instruction": "продолжи воспроизведение", "output": "import pyautogui\npyautogui.press('k')"}
+{"instruction": "выключи звук на ютубе", "output": "import pyautogui\npyautogui.press('m')"}
+{"instruction": "включи полноэкранный режим", "output": "import pyautogui\npyautogui.press('f')"}
+{"instruction": "выйди из полноэкранного режима", "output": "import pyautogui\npyautogui.press('f')"}
+{"instruction": "перемотай видео на 10 секунд вперед", "output": "import pyautogui\npyautogui.press('l')"}
+{"instruction": "перемотай назад на 10 секунд", "output": "import pyautogui\npyautogui.press('j')"}
+{"instruction": "включи субтитры", "output": "import pyautogui\npyautogui.press('c')"}
+{"instruction": "следующее видео", "output": "import pyautogui\npyautogui.hotkey('shift', 'n')"}
+{"instruction": "прокрути страницу вниз", "output": "import pyautogui\npyautogui.press('space')"}
+{"instruction": "добавь эту страницу в закладки", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'd')"}
+{"instruction": "запомни этот сайт", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'd')\ntime.sleep(0.5)\npyautogui.press('enter')"}
+{"instruction": "открой менеджер закладок", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'o')"}
+{"instruction": "покажи все мои закладки", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'o')"}
+{"instruction": "открой инструменты разработчика", "output": "import pyautogui\npyautogui.hotkey('f12')"}
+{"instruction": "покажи код страницы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'u')"}
+{"instruction": "открой консоль разработчика", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'j')"}
+{"instruction": "включи инспектор элементов", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'c')"}
+{"instruction": "напечатай эту страницу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'p')"}
+{"instruction": "сохрани страницу как файл", "output": "import pyautogui\npyautogui.hotkey('ctrl', 's')"}
+{"instruction": "прокрути в самый верх страницы", "output": "import pyautogui\npyautogui.press('home')"}
+{"instruction": "переместиться в начало", "output": "import pyautogui\npyautogui.press('home')"}
+{"instruction": "прокрути в самый конец страницы", "output": "import pyautogui\npyautogui.press('end')"}
+{"instruction": "перейти в конец документа", "output": "import pyautogui\npyautogui.press('end')"}
+{"instruction": "выдели всё на странице", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'a')"}
+{"instruction": "выбрать весь текст", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'a')"}
+{"instruction": "скопируй выделенное", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'c')"}
+{"instruction": "вставь из буфера обмена", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'v')"}
+{"instruction": "вырежи этот текст", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'x')"}
+{"instruction": "сверни окно", "output": "import pyautogui\npyautogui.hotkey('win', 'down')"}
+{"instruction": "разверни окно на весь экран", "output": "import pyautogui\npyautogui.hotkey('win', 'up')"}
+{"instruction": "прикрепи окно к левой части экрана", "output": "import pyautogui\npyautogui.hotkey('win', 'left')"}
+{"instruction": "прикрепи окно справа", "output": "import pyautogui\npyautogui.hotkey('win', 'right')"}
+{"instruction": "закрой браузер полностью", "output": "import pyautogui\npyautogui.hotkey('alt', 'f4')"}
+{"instruction": "заверши работу браузера", "output": "import pyautogui\npyautogui.hotkey('alt', 'f4')"}
+{"instruction": "перейди к следующему полю для ввода", "output": "import pyautogui\npyautogui.press('tab')"}
+{"instruction": "следующий элемент формы", "output": "import pyautogui\npyautogui.press('tab')"}
+{"instruction": "вернись к предыдущему полю", "output": "import pyautogui\npyautogui.hotkey('shift', 'tab')"}
+{"instruction": "предыдущий элемент", "output": "import pyautogui\npyautogui.hotkey('shift', 'tab')"}
+{"instruction": "поставь галочку в этом чекбоксе", "output": "import pyautogui\npyautogui.press('space')"}
+{"instruction": "убери галочку", "output": "import pyautogui\npyautogui.press('space')"}
+{"instruction": "отправь эту форму", "output": "import pyautogui\npyautogui.press('enter')"}
+{"instruction": "подтверди ввод", "output": "import pyautogui\npyautogui.press('enter')"}
+{"instruction": "открой меню очистки истории", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'delete')"}
+{"instruction": "я хочу удалить кэш", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'delete')"}
+{"instruction": "обнови страницу полностью, без кэша", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f5')"}
+{"instruction": "жесткая перезагрузка страницы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f5')"}
+{"instruction": "открой диспетчер задач браузера", "output": "import pyautogui\npyautogui.hotkey('shift', 'esc')"}
+{"instruction": "покажи исходный код выделенного фрагмента", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'i')"}
+{"instruction": "переключись на другое окно", "output": "import pyautogui\npyautogui.hotkey('alt', 'tab')"}
+{"instruction": "покажи другое активное окно", "output": "import pyautogui\npyautogui.hotkey('alt', 'tab')"}
+{"instruction": "закрой это окно, но не весь браузер", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'w')"}
+{"instruction": "вставь текст без форматирования", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'v')"}
+{"instruction": "перейти на домашнюю страницу", "output": "import pyautogui\npyautogui.hotkey('alt', 'home')"}
+{"instruction": "открой мой дом", "output": "import pyautogui\npyautogui.hotkey('alt', 'home')"}
+{"instruction": "перемести курсор в начало строки", "output": "import pyautogui\npyautogui.press('home')"}
+{"instruction": "перемести курсор в конец строки", "output": "import pyautogui\npyautogui.press('end')"}
+{"instruction": "переместиться на слово влево", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'left')"}
+{"instruction": "переместиться на слово вправо", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'right')"}
+{"instruction": "удали слово слева от курсора", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'backspace')"}
+{"instruction": "открой новую вкладку и перейди на твич", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 't')\ntime.sleep(0.5)\npyautogui.write('twitch.tv')\npyautogui.press('enter')"}
+{"instruction": "создай вкладку и открой там реддит", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 't')\ntime.sleep(0.5)\npyautogui.write('reddit.com')\npyautogui.press('enter')"}
+{"instruction": "найди-ка мне в новой вкладке 'рецепт лазаньи'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 't')\ntime.sleep(0.5)\npyautogui.write('рецепт лазаньи')\npyautogui.press('enter')"}
+{"instruction": "открой вкладку и загугли 'как собрать пк'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 't')\ntime.sleep(0.5)\npyautogui.write('как собрать пк')\npyautogui.press('enter')"}
+{"instruction": "поищи картинки с котиками", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write('картинки с котиками')\npyautogui.press('enter')"}
+{"instruction": "найди изображения гор", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write('изображения гор')\npyautogui.press('enter')"}
+{"instruction": "покажи видео про океан", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write('видео про океан')\npyautogui.press('enter')"}
+{"instruction": "хочу посмотреть видосы про космос", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write('видосы про космос')\npyautogui.press('enter')"}
+{"instruction": "очисти адресную строку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'l')\npyautogui.press('delete')"}
+{"instruction": "сотри адрес сайта", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'l')\npyautogui.press('backspace')"}
+{"instruction": "добавь закладку на эту страницу и назови ее 'важное'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'd')\ntime.sleep(1)\npyautogui.hotkey('ctrl', 'a')\npyautogui.write('vazhnoe')\npyautogui.press('enter')"}
+{"instruction": "сохрани эту ссылку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'd')\ntime.sleep(0.5)\npyautogui.press('enter')"}
+{"instruction": "будь добр, закрой окно", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'w')"}
+{"instruction": "так, давай новую вкладку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 't')"}
+{"instruction": "прокрути немного вверх", "output": "import pyautogui\npyautogui.press('pageup')"}
+{"instruction": "листани вверх", "output": "import pyautogui\npyautogui.press('pageup')"}
+{"instruction": "прокрути немного вниз", "output": "import pyautogui\npyautogui.press('pagedown')"}
+{"instruction": "листани вниз", "output": "import pyautogui\npyautogui.press('pagedown')"}
+{"instruction": "покажи карту ташкента", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write('карта ташкента')\npyautogui.press('enter')"}
+{"instruction": "где находится ближайшее кафе на карте", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write('ближайшее кафе на карте')\npyautogui.press('enter')"}
+{"instruction": "сделай страницу побольше", "output": "import pyautogui\npyautogui.hotkey('ctrl', '+')"}
+{"instruction": "сделай шрифт поменьше", "output": "import pyautogui\npyautogui.hotkey('ctrl', '-')"}
+{"instruction": "верни обычный размер", "output": "import pyautogui\npyautogui.hotkey('ctrl', '0')"}
+{"instruction": "покажи сайт в режиме для мобильных", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'm')"}
+{"instruction": "включи эмуляцию телефона", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'm')"}
+{"instruction": "выйди из режима эмуляции", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'm')"}
+{"instruction": "дублируй текущую вкладку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'l')\npyautogui.hotkey('alt', 'enter')"}
+{"instruction": "сделай копию этой вкладки", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'l')\npyautogui.hotkey('alt', 'enter')"}
+{"instruction": "выключи звук на этой вкладке", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'm')"}
+{"instruction": "мьютни вкладку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'm')"}
+{"instruction": "добавь все открытые вкладки в закладки", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'd')"}
+{"instruction": "сохрани все вкладки в одну папку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'd')\ntime.sleep(0.5)\npyautogui.press('enter')"}
+{"instruction": "перейти к панели закладок", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'b')"}
+{"instruction": "переключи фокус на панель закладок", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'b')"}
+{"instruction": "очисти консоль разработчика", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'l')"}
+{"instruction": "перейди в режим чтения", "output": "import pyautogui\npyautogui.hotkey('f9')"}
+{"instruction": "включи читалку", "output": "import pyautogui\npyautogui.hotkey('f9')"}
+{"instruction": "показать информацию о странице", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'i')"}
+{"instruction": "какой сертификат у этого сайта", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'i')\ntime.sleep(1)\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Show security overview')\npyautogui.press('enter')"}
+{"instruction": "удали слово справа от курсора", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'delete')"}
+{"instruction": "сотри следующее слово", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'delete')"}
+{"instruction": "пропусти рекламу на ютубе", "output": "import pyautogui\npyautogui.press('f')\ntime.sleep(0.5)\npyautogui.hotkey('shift', '.')"}
+{"instruction": "скипни эту рекламу", "output": "import pyautogui\npyautogui.press('f')\ntime.sleep(0.5)\npyautogui.hotkey('shift', '.')"}
+{"instruction": "переключись на второй монитор", "output": "import pyautogui\npyautogui.hotkey('win', 'shift', 'right')"}
+{"instruction": "отправь это окно на левый монитор", "output": "import pyautogui\npyautogui.hotkey('win', 'shift', 'left')"}
+{"instruction": "найти и заменить текст", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'h')"}
+{"instruction": "открой поиск с заменой", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'h')"}
+{"instruction": "покажи уведомления сайта", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'n')"}
+{"instruction": "что там с нотификациями", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'n')"}
+{"instruction": "ускорь видео", "output": "import pyautogui\npyautogui.hotkey('shift', '.')"}
+{"instruction": "сделай воспроизведение побыстрее", "output": "import pyautogui\npyautogui.hotkey('shift', '.')"}
+{"instruction": "замедли видео", "output": "import pyautogui\npyautogui.hotkey('shift', ',')"}
+{"instruction": "сделай помедленнее", "output": "import pyautogui\npyautogui.hotkey('shift', ',')"}
+{"instruction": "перейди к следующей главе на ютубе", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'right')"}
+{"instruction": "предыдущая глава видео", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'left')"}
+{"instruction": "включи мини-плеер", "output": "import pyautogui\npyautogui.press('i')"}
+{"instruction": "сверни видео в маленькое окно", "output": "import pyautogui\npyautogui.press('i')"}
+{"instruction": "включи режим кинотеатра", "output": "import pyautogui\npyautogui.press('t')"}
+{"instruction": "убери боковые панели", "output": "import pyautogui\npyautogui.press('t')"}
+{"instruction": "предыдущий трек в плейлисте", "output": "import pyautogui\npyautogui.hotkey('shift', 'p')"}
+{"instruction": "прошлый трек", "output": "import pyautogui\npyautogui.hotkey('shift', 'p')"}
+{"instruction": "приблизь этот пдф документ", "output": "import pyautogui\npyautogui.hotkey('ctrl', '+')"}
+{"instruction": "уменьши масштаб пдф", "output": "import pyautogui\npyautogui.hotkey('ctrl', '-')"}
+{"instruction": "поверни документ по часовой стрелке", "output": "import pyautogui\npyautogui.hotkey('ctrl', ']')"}
+{"instruction": "поверни пдф против часовой стрелки", "output": "import pyautogui\npyautogui.hotkey('ctrl', '[')"}
+{"instruction": "подогнать пдф по ширине страницы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'x')"}
+{"instruction": "выдели слово слева", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'left')"}
+{"instruction": "выдели слово справа", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'right')"}
+{"instruction": "выдели все до начала строки", "output": "import pyautogui\npyautogui.hotkey('shift', 'home')"}
+{"instruction": "выдели все до конца строки", "output": "import pyautogui\npyautogui.hotkey('shift', 'end')"}
+{"instruction": "создай новый рабочий стол", "output": "import pyautogui\npyautogui.hotkey('win', 'ctrl', 'd')"}
+{"instruction": "добавь виртуальный рабочий стол", "output": "import pyautogui\npyautogui.hotkey('win', 'ctrl', 'd')"}
+{"instruction": "переключись на правый рабочий стол", "output": "import pyautogui\npyautogui.hotkey('win', 'ctrl', 'right')"}
+{"instruction": "следующий десктоп", "output": "import pyautogui\npyautogui.hotkey('win', 'ctrl', 'right')"}
+{"instruction": "переключись на левый рабочий стол", "output": "import pyautogui\npyautogui.hotkey('win', 'ctrl', 'left')"}
+{"instruction": "предыдущий десктоп", "output": "import pyautogui\npyautogui.hotkey('win', 'ctrl', 'left')"}
+{"instruction": "закрой этот рабочий стол", "output": "import pyautogui\npyautogui.hotkey('win', 'ctrl', 'f4')"}
+{"instruction": "удали текущий виртуальный стол", "output": "import pyautogui\npyautogui.hotkey('win', 'ctrl', 'f4')"}
+{"instruction": "закрой три вкладки подряд", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'w')\ntime.sleep(0.3)\npyautogui.hotkey('ctrl', 'w')\ntime.sleep(0.3)\npyautogui.hotkey('ctrl', 'w')"}
+{"instruction": "закрой две следующие вкладки", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'tab')\ntime.sleep(0.3)\npyautogui.hotkey('ctrl', 'w')\ntime.sleep(0.3)\npyautogui.hotkey('ctrl', 'tab')\ntime.sleep(0.3)\npyautogui.hotkey('ctrl', 'w')"}
+{"instruction": "мне нужно открыть почту", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 't')\ntime.sleep(0.5)\npyautogui.write('mail.google.com')\npyautogui.press('enter')"}
+{"instruction": "давай посмотрим новости", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 't')\ntime.sleep(0.5)\npyautogui.write('google news')\npyautogui.press('enter')"}
+{"instruction": "заполни форму входа: логин 'admin', пароль 'password123'", "output": "import pyautogui\nimport time\npyautogui.write('admin')\npyautogui.press('tab')\ntime.sleep(0.5)\npyautogui.write('password123')\npyautogui.press('enter')"}
+{"instruction": "введи мои данные: имя 'Али', фамилия 'Валиев'", "output": "import pyautogui\nimport time\npyautogui.write('Али')\npyautogui.press('tab')\ntime.sleep(0.5)\npyautogui.write('Валиев')"}
+{"instruction": "покажи все окна", "output": "import pyautogui\npyautogui.hotkey('win', 'tab')"}
+{"instruction": "просмотр задач", "output": "import pyautogui\npyautogui.hotkey('win', 'tab')"}
+{"instruction": "включи фокус внимания", "output": "import pyautogui\npyautogui.hotkey('win', 'alt', 'b')"}
+{"instruction": "не беспокоить", "output": "import pyautogui\npyautogui.hotkey('win', 'alt', 'b')"}
+{"instruction": "покажи виджеты", "output": "import pyautogui\npyautogui.hotkey('win', 'w')"}
+{"instruction": "открой панель виджетов", "output": "import pyautogui\npyautogui.hotkey('win', 'w')"}
+{"instruction": "сделай скриншот области экрана", "output": "import pyautogui\npyautogui.hotkey('win', 'shift', 's')"}
+{"instruction": "мне нужно вырезать кусок экрана", "output": "import pyautogui\npyautogui.hotkey('win', 'shift', 's')"}
+{"instruction": "открой настройки браузера", "output": "import pyautogui\npyautogui.hotkey('alt', 'e')\npyautogui.press('s')"}
+{"instruction": "перейти в настройки", "output": "import pyautogui\npyautogui.hotkey('alt', 'f')\npyautogui.press('s')"}
+{"instruction": "покажи справку", "output": "import pyautogui\npyautogui.hotkey('f1')"}
+{"instruction": "где тут помощь", "output": "import pyautogui\npyautogui.hotkey('f1')"}
+{"instruction": "открой мой твиттер", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 't')\ntime.sleep(0.5)\npyautogui.write('twitter.com')\npyautogui.press('enter')"}
+{"instruction": "что там в иксе", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 't')\ntime.sleep(0.5)\npyautogui.write('x.com')\npyautogui.press('enter')"}
+{"instruction": "открой мою почту", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 't')\ntime.sleep(0.5)\npyautogui.write('gmail.com')\npyautogui.press('enter')"}
+{"instruction": "напиши новое письмо", "output": "import pyautogui\npyautogui.press('c')"}
+{"instruction": "создай черновик", "output": "import pyautogui\npyautogui.press('c')"}
+{"instruction": "ответь на это письмо", "output": "import pyautogui\npyautogui.press('r')"}
+{"instruction": "ответь всем", "output": "import pyautogui\npyautogui.press('a')"}
+{"instruction": "перешли это сообщение", "output": "import pyautogui\npyautogui.press('f')"}
+{"instruction": "найди письма от 'банка'", "output": "import pyautogui\npyautogui.press('/')\npyautogui.write('from:bank')\npyautogui.press('enter')"}
+{"instruction": "покажи следующее письмо", "output": "import pyautogui\npyautogui.press('j')"}
+{"instruction": "покажи предыдущее письмо", "output": "import pyautogui\npyautogui.press('k')"}
+{"instruction": "открой диалог", "output": "import pyautogui\npyautogui.press('o')"}
+{"instruction": "вернись к списку писем", "output": "import pyautogui\npyautogui.press('u')"}
+{"instruction": "архивируй это", "output": "import pyautogui\npyautogui.press('e')"}
+{"instruction": "удали это письмо", "output": "import pyautogui\npyautogui.press('#')"}
+{"instruction": "отметь как спам", "output": "import pyautogui\npyautogui.press('!')"}
+{"instruction": "перейди во входящие", "output": "import pyautogui\npyautogui.write('gi')"}
+{"instruction": "покажи отправленные", "output": "import pyautogui\npyautogui.write('gt')"}
+{"instruction": "открой гугл диск", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 't')\ntime.sleep(0.5)\npyautogui.write('drive.google.com')\npyautogui.press('enter')"}
+{"instruction": "создай новый гугл документ", "output": "import pyautogui\npyautogui.hotkey('shift', 't')"}
+{"instruction": "создай новую гугл таблицу", "output": "import pyautogui\npyautogui.hotkey('shift', 's')"}
+{"instruction": "создай новую презентацию", "output": "import pyautogui\npyautogui.hotkey('shift', 'p')"}
+{"instruction": "переименуй этот файл", "output": "import pyautogui\npyautogui.press('n')"}
+{"instruction": "покажи детали файла", "output": "import pyautogui\npyautogui.press('d')"}
+{"instruction": "открой этот файл на диске", "output": "import pyautogui\npyautogui.press('enter')"}
+{"instruction": "следующий файл на диске", "output": "import pyautogui\npyautogui.press('j')"}
+{"instruction": "предыдущий файл на диске", "output": "import pyautogui\npyautogui.press('k')"}
+{"instruction": "сделай текст жирным в документе", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'b')"}
+{"instruction": "сделай курсивом", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'i')"}
+{"instruction": "подчеркни текст", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'u')"}
+{"instruction": "выровняй текст по центру", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'e')"}
+{"instruction": "выровняй по левому краю", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'l')"}
+{"instruction": "сделай это заголовком второго уровня", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', '2')"}
+{"instruction": "добавь комментарий", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'm')"}
+{"instruction": "посчитай слова в документе", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'c')"}
+{"instruction": "вставь ссылку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')"}
+{"instruction": "открой гугл календарь", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 't')\ntime.sleep(0.5)\npyautogui.write('calendar.google.com')\npyautogui.press('enter')"}
+{"instruction": "создай новое событие в календаре", "output": "import pyautogui\npyautogui.press('c')"}
+{"instruction": "покажи сегодняшний день в календаре", "output": "import pyautogui\npyautogui.press('t')"}
+{"instruction": "покажи вид на неделю", "output": "import pyautogui\npyautogui.press('w')"}
+{"instruction": "покажи вид на месяц", "output": "import pyautogui\npyautogui.press('m')"}
+{"instruction": "следующий месяц в календаре", "output": "import pyautogui\npyautogui.press('j')"}
+{"instruction": "предыдущий месяц", "output": "import pyautogui\npyautogui.press('k')"}
+{"instruction": "открой гугл карты", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 't')\ntime.sleep(0.5)\npyautogui.write('maps.google.com')\npyautogui.press('enter')"}
+{"instruction": "построй маршрут до Ташкент Сити", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write('маршрут до Ташкент Сити')\npyautogui.press('enter')"}
+{"instruction": "покажи пробки", "output": "import pyautogui\n# This is a complex action, we simulate clicking a 'layers' button and then 'traffic'\n# This is a placeholder for a more complex sequence or a direct URL change\n# For simplicity, we can just search for it\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write('пробки на дорогах')\npyautogui.press('enter')"}
+{"instruction": "приблизь карту", "output": "import pyautogui\npyautogui.hotkey('+')"}
+{"instruction": "отдалить карту", "output": "import pyautogui\npyautogui.hotkey('-')"}
+{"instruction": "создай новую гугл форму", "output": "import pyautogui\npyautogui.hotkey('shift', 'f')"}
+{"instruction": "открой гугл переводчик", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 't')\ntime.sleep(0.5)\npyautogui.write('translate.google.com')\npyautogui.press('enter')"}
+{"instruction": "очисти форматирование в документе", "output": "import pyautogui\npyautogui.hotkey('ctrl', '\\\\')"}
+{"instruction": "вставь строку выше в таблице", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', '=', 'up')"}
+{"instruction": "добавь строку снизу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', '=', 'down')"}
+{"instruction": "вставь столбец слева", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', '=', 'left')"}
+{"instruction": "добавь столбец справа", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', '=', 'right')"}
+{"instruction": "удали текущую строку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', '-')"}
+{"instruction": "закрепи верхнюю строку", "output": "import pyautogui\npyautogui.hotkey('alt', 'v', 'f', 'r')"}
+{"instruction": "посчитай сумму в этой ячейке", "output": "import pyautogui\npyautogui.write('=SUM()')\npyautogui.press('left')"}
+{"instruction": "создай фильтр для таблицы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'r')"}
+{"instruction": "создай новый слайд", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'm')"}
+{"instruction": "дублируй этот слайд", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'd')"}
+{"instruction": "начни презентацию с начала", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'f5')"}
+{"instruction": "запусти показ слайдов", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'f5')"}
+{"instruction": "следующий слайд", "output": "import pyautogui\npyautogui.press('pagedown')"}
+{"instruction": "предыдущий слайд", "output": "import pyautogui\npyautogui.press('pageup')"}
+{"instruction": "открой заметки докладчика", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'shift', 's')"}
+{"instruction": "найди 'AI' только на сайте википедии", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write('AI site:wikipedia.org')\npyautogui.press('enter')"}
+{"instruction": "ищи только на ютубе", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write(' site:youtube.com')"}
+{"instruction": "найди мне pdf документ по машинному обучению", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write('машинное обучение filetype:pdf')\npyautogui.press('enter')"}
+{"instruction": "ищи только pdf файлы", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write(' filetype:pdf')"}
+{"instruction": "найди точную фразу 'быть или не быть'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'l')\ntime.sleep(0.5)\npyautogui.write('\"быть или не быть\"')\npyautogui.press('enter')"}
+{"instruction": "открой доступ к этому документу", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', '.')"}
+{"instruction": "поделись этим файлом", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', '.')"}
+{"instruction": "открой google keep", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 't')\ntime.sleep(0.5)\npyautogui.write('keep.google.com')\npyautogui.press('enter')"}
+{"instruction": "создай новую заметку", "output": "import pyautogui\npyautogui.press('c')"}
+{"instruction": "покажи все горячие клавиши для этого сервиса", "output": "import pyautogui\npyautogui.hotkey('ctrl', '/')"}
+{"instruction": "открой телеграм", "output": "import pyautogui\nimport time\npyautogui.press('win')\ntime.sleep(0.5)\npyautogui.write('telegram')\npyautogui.press('enter')"}
+{"instruction": "запусти телегу", "output": "import pyautogui\nimport time\npyautogui.press('win')\ntime.sleep(0.5)\npyautogui.write('telegram')\npyautogui.press('enter')"}
+{"instruction": "следующий чат", "output": "import pyautogui\npyautogui.hotkey('alt', 'down')"}
+{"instruction": "переключись на чат ниже", "output": "import pyautogui\npyautogui.hotkey('alt', 'down')"}
+{"instruction": "предыдущий чат", "output": "import pyautogui\npyautogui.hotkey('alt', 'up')"}
+{"instruction": "чат выше", "output": "import pyautogui\npyautogui.hotkey('alt', 'up')"}
+{"instruction": "перейти к следующей папке", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'down')"}
+{"instruction": "предыдущая папка", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'up')"}
+{"instruction": "найди контакт 'Али'", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')\npyautogui.write('Али')"}
+{"instruction": "поиск по чатам", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')"}
+{"instruction": "закрой поиск", "output": "import pyautogui\npyautogui.press('esc')"}
+{"instruction": "отправь сообщение", "output": "import pyautogui\npyautogui.press('enter')"}
+{"instruction": "сделай текст жирным", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'b')"}
+{"instruction": "выдели курсивом", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'i')"}
+{"instruction": "сделай моноширинным", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'm')"}
+{"instruction": "зачеркни текст", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'x')"}
+{"instruction": "добавь ссылку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')"}
+{"instruction": "открой информацию о чате", "output": "import pyautogui\n# This action usually requires a click, simulating a common pattern\npyautogui.press('esc')\npyautogui.press('tab')\npyautogui.press('enter')"}
+{"instruction": "архивируй этот чат", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'a')"}
+{"instruction": "открой архив", "output": "import pyautogui\n# This requires clicking on the 'Archived Chats' folder, simulating with navigation\npyautogui.hotkey('ctrl', '0')"}
+{"instruction": "отключи уведомления для этого чата", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'u')"}
+{"instruction": "замьють чат", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'u')"}
+{"instruction": "открой настройки", "output": "import pyautogui\npyautogui.hotkey('ctrl', ',')"}
+{"instruction": "сверни телеграм в трей", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'w')"}
+{"instruction": "закрой телеграм полностью", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'q')"}
+{"instruction": "найди 'Анну' и напиши ей 'Привет, как дела?'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\ntime.sleep(0.5)\npyautogui.write('Анна')\ntime.sleep(1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('Привет, как дела?')\npyautogui.press('enter')"}
+{"instruction": "отправь сообщение 'Скоро буду' контакту 'Мама'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\ntime.sleep(0.5)\npyautogui.write('Мама')\ntime.sleep(1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('Скоро буду')\npyautogui.press('enter')"}
+{"instruction": "спроси у 'Проекта X' когда дедлайн", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\ntime.sleep(0.5)\npyautogui.write('Проект X')\ntime.sleep(1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('когда дедлайн?')\npyautogui.press('enter')"}
+{"instruction": "напомни 'Папе' купить хлеб", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\ntime.sleep(0.5)\npyautogui.write('Папа')\ntime.sleep(1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('купи хлеб')\npyautogui.press('enter')"}
+{"instruction": "перейти в чат с 'ботом'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\ntime.sleep(0.5)\npyautogui.write('бот')\ntime.sleep(1)\npyautogui.press('enter')"}
+{"instruction": "открой переписку с 'дизайнером'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\ntime.sleep(0.5)\npyautogui.write('дизайнер')\ntime.sleep(1)\npyautogui.press('enter')"}
+{"instruction": "позвони 'Алишеру'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\ntime.sleep(0.5)\npyautogui.write('Алишер')\ntime.sleep(1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.hotkey('ctrl', 'shift', 'c')"}
+{"instruction": "сделай видеозвонок 'Сестре'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\ntime.sleep(0.5)\npyautogui.write('Сестра')\ntime.sleep(1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.hotkey('ctrl', 'shift', 'c')\n# Note: This hotkey starts a call, video might need an extra click"}
+{"instruction": "отправь последний скриншот в 'Избранное'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\ntime.sleep(0.5)\npyautogui.write('Избранное')\ntime.sleep(1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.hotkey('ctrl', 'v')\npyautogui.press('enter')"}
+{"instruction": "скинь в 'Saved Messages' то что у меня в буфере", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\ntime.sleep(0.5)\npyautogui.write('Saved Messages')\ntime.sleep(1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.hotkey('ctrl', 'v')\npyautogui.press('enter')"}
+{"instruction": "отредактируй последнее сообщение", "output": "import pyautogui\npyautogui.press('up')"}
+{"instruction": "исправь то что я только что написал", "output": "import pyautogui\npyautogui.press('up')"}
+{"instruction": "ответь на предыдущее сообщение", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'up')"}
+{"instruction": "цитируй сообщение выше", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'up')"}
+{"instruction": "перейди в мой профиль", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'p')"}
+{"instruction": "открой мои данные", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'p')"}
+{"instruction": "поставь лайк на последнее сообщение", "output": "import pyautogui\npyautogui.hotkey('ctrl', '1')"}
+{"instruction": "отреагируй сердцем", "output": "import pyautogui\npyautogui.hotkey('ctrl', '2')"}
+{"instruction": "поставь реакцию 'огонь'", "output": "import pyautogui\npyautogui.hotkey('ctrl', '3')"}
+{"instruction": "создай новую группу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'n')"}
+{"instruction": "создай новый канал", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'n')"}
+{"instruction": "перейди в чат номер один в списке", "output": "import pyautogui\npyautogui.hotkey('ctrl', '1')"}
+{"instruction": "открой пятый чат", "output": "import pyautogui\npyautogui.hotkey('ctrl', '5')"}
+{"instruction": "покажи закрепленные сообщения", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'p')"}
+{"instruction": "перейти к пинам", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'p')"}
+{"instruction": "открой фото в этом чате", "output": "import pyautogui\npyautogui.press('enter')"}
+{"instruction": "покажи медиа в полноэкранном режиме", "output": "import pyautogui\npyautogui.press('enter')"}
+{"instruction": "следующее фото", "output": "import pyautogui\npyautogui.press('right')"}
+{"instruction": "листани медиа вправо", "output": "import pyautogui\npyautogui.press('right')"}
+{"instruction": "предыдущее фото", "output": "import pyautogui\npyautogui.press('left')"}
+{"instruction": "вернись к прошлому медиа", "output": "import pyautogui\npyautogui.press('left')"}
+{"instruction": "закрой просмотр фото", "output": "import pyautogui\npyautogui.press('esc')"}
+{"instruction": "вернись в чат", "output": "import pyautogui\npyautogui.press('esc')"}
+{"instruction": "сохрани это фото", "output": "import pyautogui\npyautogui.hotkey('ctrl', 's')"}
+{"instruction": "скачай этот файл", "output": "import pyautogui\npyautogui.hotkey('ctrl', 's')"}
+{"instruction": "удали это сообщение", "output": "import pyautogui\npyautogui.press('delete')\ntime.sleep(0.5)\npyautogui.press('enter')"}
+{"instruction": "сотри мое сообщение", "output": "import pyautogui\npyautogui.press('delete')\ntime.sleep(0.5)\npyautogui.press('enter')"}
+{"instruction": "перешли последнее сообщение", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')"}
+{"instruction": "поделись этим сообщением", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')"}
+{"instruction": "открой панель стикеров", "output": "import pyautogui\n# Simulating tabbing from message field to stickers button\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('enter')"}
+{"instruction": "покажи стикеры", "output": "import pyautogui\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('enter')"}
+{"instruction": "открой гифки", "output": "import pyautogui\n# Simulating tabbing to GIFs\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('enter')"}
+{"instruction": "покажи панель эмодзи", "output": "import pyautogui\npyautogui.hotkey('win', '.')"}
+{"instruction": "вставь эмодзи", "output": "import pyautogui\npyautogui.hotkey('win', '.')"}
+{"instruction": "открой настройки уведомлений", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab')\npyautogui.press('enter')"}
+{"instruction": "перейди в настройки приватности", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('enter')"}
+{"instruction": "измени свой профиль", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'p')\npyautogui.press('enter')"}
+{"instruction": "поставь новый статус", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'p')\npyautogui.press('enter')\n# Further actions needed to navigate to status field"}
+{"instruction": "найди 'документ' в чате с 'работой'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\ntime.sleep(0.5)\npyautogui.write('работа')\ntime.sleep(1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.hotkey('ctrl', 'f')\npyautogui.write('документ')"}
+{"instruction": "ищи 'пароль' в избранном", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\ntime.sleep(0.5)\npyautogui.write('избранное')\ntime.sleep(1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.hotkey('ctrl', 'f')\npyautogui.write('пароль')"}
+{"instruction": "создай опрос в этом чате", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'o')\ntime.sleep(0.5)\npyautogui.press('down')\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "запусти голосование", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'o')\ntime.sleep(0.5)\npyautogui.press('down')\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "прикрепи файл", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'o')"}
+{"instruction": "покажи участников группы", "output": "import pyautogui\n# Clicks on the group name at the top to open info\npyautogui.press('esc')\npyautogui.press('tab')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('enter')"}
+{"instruction": "кто состоит в этом чате", "output": "import pyautogui\n# Clicks on the group name at the top to open info\npyautogui.press('esc')\npyautogui.press('tab')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('enter')"}
+{"instruction": "закрепи последнее сообщение", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'p')"}
+{"instruction": "открепи сообщение", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'p')"}
+{"instruction": "экспортируй историю этого чата", "output": "import pyautogui\n# Clicks on the group name -> ... -> Export chat history\npyautogui.press('esc')\npyautogui.press('tab')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.hotkey('ctrl', 'shift', 'e')"}
+{"instruction": "сохрани переписку", "output": "import pyautogui\npyautogui.press('esc')\npyautogui.press('tab')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.hotkey('ctrl', 'shift', 'e')"}
+{"instruction": "очисти историю чата", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'd')"}
+{"instruction": "удали все сообщения в этом чате", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'd')\ntime.sleep(0.5)\npyautogui.press('enter')"}
+{"instruction": "покажи мои активные сессии", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('enter')"}
+{"instruction": "где еще я залогинен", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('enter')"}
+{"instruction": "измени фон чата", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\n# Navigate to Chat Settings\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('enter')"}
+{"instruction": "поменяй тему оформления", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\n# Navigate to Chat Settings\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('enter')"}
+{"instruction": "ответь на сообщение с id 12345", "output": "# This is a conceptual example for the Brain model, the Hands model cannot do this.\n# The Brain would first need a tool to find the message, then command the hands.\n# For now, we simulate a reply to the currently selected message.\npyautogui.hotkey('ctrl', 'up')"}
+{"instruction": "запиши голосовое сообщение", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'r')"}
+{"instruction": "начни запись голоса", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'r')"}
+{"instruction": "останови запись и отправь", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'r')"}
+{"instruction": "запиши видеосообщение", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'v')"}
+{"instruction": "кружочек запиши", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'v')"}
+{"instruction": "перейти в быстрый поиск", "output": "import pyautogui\npyautogui.press('j', presses=2, interval=0.1)"}
+{"instruction": "покажи горячие клавиши", "output": "import pyautogui\n# This often requires navigating to Settings -> Advanced -> Shortcuts\n# This is a placeholder for that complex sequence\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('down', presses=5)\npyautogui.press('enter')"}
+{"instruction": "включи ночной режим", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'n')"}
+{"instruction": "переключи тему на темную", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'n')"}
+{"instruction": "прими входящий звонок", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'a')"}
+{"instruction": "ответь на звонок", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'a')"}
+{"instruction": "отклони звонок", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'e')"}
+{"instruction": "заверши вызов", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'e')"}
+{"instruction": "выключи мой микрофон во время звонка", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'm')"}
+{"instruction": "включи микрофон", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'm')"}
+{"instruction": "спрячь этот текст под спойлер", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'p')"}
+{"instruction": "скрой сообщение", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'p')"}
+{"instruction": "перейти к дате в этом чате", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'j')"}
+{"instruction": "покажи сообщения за вчерашний день", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'j')"}
+{"instruction": "найди сообщение и ответь на него 'хорошо'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'f')\n# Assume user says the search term, for now we just open search\ntime.sleep(2)\n# After finding, user would manually select, then we trigger reply\npyautogui.hotkey('ctrl', 'up')\ntime.sleep(0.5)\npyautogui.write('horosho')\npyautogui.press('enter')"}
+{"instruction": "найди в чате 'отчет' и перешли его мне в избранное", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'f')\npyautogui.write('отчет')\ntime.sleep(1)\npyautogui.press('enter')\n# Assuming message is found and selected\ntime.sleep(0.5)\npyautogui.hotkey('ctrl', 'f')\ntime.sleep(1)\npyautogui.write('Избранное')\ntime.sleep(1)\npyautogui.press('enter')"}
+{"instruction": "перейти к самому первому сообщению", "output": "import pyautogui\n# This is a tricky one, simulating holding PageUp\npyautogui.keyDown('pageup')\ntime.sleep(3)\npyautogui.keyUp('pageup')"}
+{"instruction": "покажи с чего начинался этот чат", "output": "import pyautogui\npyautogui.keyDown('pageup')\ntime.sleep(3)\npyautogui.keyUp('pageup')"}
+{"instruction": "просмотри информацию о канале", "output": "import pyautogui\npyautogui.press('esc')\npyautogui.press('tab')\npyautogui.press('enter')"}
+{"instruction": "кто админ в этой группе", "output": "import pyautogui\n# This requires clicking info and then members\npyautogui.press('esc')\npyautogui.press('tab')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('enter')"}
+{"instruction": "отметь все сообщения в этом чате как прочитанные", "output": "import pyautogui\n# Right click on chat -> Mark as read\n# This is a placeholder for a mouse-based action\npyautogui.hotkey('shift', 'f10')\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "прочитай этот чат", "output": "import pyautogui\npyautogui.hotkey('shift', 'f10')\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "отключи звук для всех чатов", "output": "import pyautogui\n# This would be in settings, placeholder for the sequence\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab')\npyautogui.press('enter')\n# ... further navigation needed"}
+{"instruction": "создай секретный чат с 'Сергеем'", "output": "import pyautogui\n# This requires clicking profile -> Start secret chat\n# Placeholder for a complex action\npyautogui.hotkey('ctrl', '0')\ntime.sleep(0.5)\npyautogui.write('Сергей')\ntime.sleep(1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('esc')\npyautogui.press('tab')\npyautogui.press('enter')\n# ... further navigation needed"}
+{"instruction": "покажи сохраненные гифки", "output": "import pyautogui\n# Navigate to stickers -> gifs\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('tab')\npyautogui.press('enter')"}
+{"instruction": "переключись на второй аккаунт", "output": "import pyautogui\n# Usually requires clicking hamburger menu -> switch account\n# Placeholder for mouse action\npyautogui.hotkey('ctrl', 'shift', 'up') # In some clients"}
+{"instruction": "добавь новый аккаунт", "output": "import pyautogui\n# Placeholder for mouse action from settings\npyautogui.hotkey('ctrl', ',')"}
+{"instruction": "выйди из этого аккаунта", "output": "import pyautogui\n# Placeholder for mouse action from settings\npyautogui.hotkey('ctrl', ',')"}
+{"instruction": "покажи мой QR код", "output": "import pyautogui\n# Placeholder for mouse action from settings/profile\npyautogui.hotkey('ctrl', 'p')"}
+{"instruction": "быстро найди чат с шефом", "output": "import pyautogui\npyautogui.hotkey('ctrl', '0')\npyautogui.write('шеф')\ntime.sleep(1)\npyautogui.press('enter')"}
+{"instruction": "мне нужно написать в группу 'Семья'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\ntime.sleep(0.5)\npyautogui.write('Семья')\ntime.sleep(1)\npyautogui.press('enter')"}
+{"instruction": "проверь, что нового в канале 'Технологии'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\ntime.sleep(0.5)\npyautogui.write('Технологии')\ntime.sleep(1)\npyautogui.press('enter')"}
+{"instruction": "напиши-ка 'Привет' контакту 'Стас'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\ntime.sleep(0.5)\npyautogui.write('Стас')\ntime.sleep(1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('Привет')\npyautogui.press('enter')"}
+{"instruction": "отправь мое местоположение", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'o')\ntime.sleep(0.5)\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "поделись геолокацией", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'o')\ntime.sleep(0.5)\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "покажи все медиа в этом чате", "output": "import pyautogui\nimport time\npyautogui.press('esc')\npyautogui.press('tab')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "открой галерею чата", "output": "import pyautogui\nimport time\npyautogui.press('esc')\npyautogui.press('tab')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "покажи все файлы в этой переписке", "output": "import pyautogui\nimport time\npyautogui.press('esc')\npyautogui.press('tab')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('down')\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "открой раздел с документами", "output": "import pyautogui\nimport time\npyautogui.press('esc')\npyautogui.press('tab')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('down')\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "покажи все ссылки из этого чата", "output": "import pyautogui\nimport time\npyautogui.press('esc')\npyautogui.press('tab')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('down')\npyautogui.press('down')\npyautogui.press('down')\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "мне нужны все ссылки", "output": "import pyautogui\nimport time\npyautogui.press('esc')\npyautogui.press('tab')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('down')\npyautogui.press('down')\npyautogui.press('down')\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "ой, отмена", "output": "import pyautogui\npyautogui.press('esc')"}
+{"instruction": "не, не надо, закрой это", "output": "import pyautogui\npyautogui.press('esc')"}
+{"instruction": "я передумал, назад", "output": "import pyautogui\npyautogui.press('esc')"}
+{"instruction": "отмени последнее действие", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'z')"}
+{"instruction": "верни как было", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'z')"}
+{"instruction": "повтори отмененное действие", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'y')"}
+{"instruction": "сделай еще раз", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'y')"}
+{"instruction": "поставь реакцию 'палец вверх'", "output": "import pyautogui\npyautogui.hotkey('ctrl', '1')"}
+{"instruction": "лайкни", "output": "import pyautogui\npyautogui.hotkey('ctrl', '1')"}
+{"instruction": "поставь дизлайк", "output": "import pyautogui\npyautogui.hotkey('ctrl', '2') # Assuming dislike is the second reaction"}
+{"instruction": "реакция 'клоун'", "output": "import pyautogui\npyautogui.hotkey('ctrl', '5') # Assuming clown is the 5th"}
+{"instruction": "перейти в папку 'Работа'", "output": "import pyautogui\npyautogui.hotkey('ctrl', '2') # Assuming Work is the 2nd folder"}
+{"instruction": "открой папку 'Личное'", "output": "import pyautogui\npyautogui.hotkey('ctrl', '3') # Assuming Personal is the 3rd"}
+{"instruction": "покажи все непрочитанные чаты", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'u') # This is often 'mute', but can be repurposed mentally"}
+{"instruction": "перейти к следующему непрочитанному", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'down')"}
+{"instruction": "найди следующий не прочитанный чат", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'down')"}
+{"instruction": "выйди из полноэкранного режима", "output": "import pyautogui\npyautogui.press('f11')"}
+{"instruction": "сделай окно обычным", "output": "import pyautogui\npyautogui.press('f11')"}
+{"instruction": "включи полноэкранный режим", "output": "import pyautogui\npyautogui.press('f11')"}
+{"instruction": "разверни на весь экран", "output": "import pyautogui\npyautogui.press('f11')"}
+{"instruction": "очисти поле ввода", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'a')\npyautogui.press('delete')"}
+{"instruction": "сотри все что я написал", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'a')\npyautogui.press('delete')"}
+{"instruction": "выдели весь текст в поле", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'a')"}
+{"instruction": "создай текстовый документ с этой перепиской", "output": "import pyautogui\n# Conceptual: Export -> Select text format\npyautogui.hotkey('ctrl', 'shift', 'e')\ntime.sleep(1)\n# ...navigate menu to select text"}
+{"instruction": "кто онлайн?", "output": "import pyautogui\n# Conceptual: requires visual check\n# We can open the contacts list\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab', presses=4)\npyautogui.press('enter')"}
+{"instruction": "покажи мой контакт лист", "output": "import pyautogui\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab', presses=4)\npyautogui.press('enter')"}
+{"instruction": "смени язык интерфейса", "output": "import pyautogui\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab', presses=6)\npyautogui.press('enter')"}
+{"instruction": "поставь английский язык", "output": "import pyautogui\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab', presses=6)\npyautogui.press('enter')\n# ...navigate to english"}
+{"instruction": "скрой левую панель", "output": "import pyautogui\npyautogui.hotkey('ctrl', '0')"}
+{"instruction": "покажи список чатов", "output": "import pyautogui\npyautogui.hotkey('ctrl', '0')"}
+{"instruction": "отправь стикер 'привет'", "output": "import pyautogui\n# Conceptual: requires visual search for sticker\npyautogui.press('tab', presses=2)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('привет')\ntime.sleep(0.5)\npyautogui.press('enter')"}
+{"instruction": "запусти трансляцию экрана", "output": "import pyautogui\n# Conceptual: requires clicking through menus\npyautogui.hotkey('ctrl', 'shift', 'c')\n# ...navigate to screen share"}
+{"instruction": "начни стрим", "output": "import pyautogui\n# Conceptual: requires clicking through menus\npyautogui.hotkey('ctrl', 'shift', 'c')\n# ...navigate to screen share"}
+{"instruction": "проверь обновления", "output": "import pyautogui\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab', presses=7)\npyautogui.press('enter')\n# ...navigate to check updates"}
+{"instruction": "обнови телеграм", "output": "import pyautogui\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab', presses=7)\npyautogui.press('enter')\n# ...navigate to check updates"}
+{"instruction": "покажи информацию о версии", "output": "import pyautogui\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab', presses=8)\npyautogui.press('enter')"}
+{"instruction": "какая у меня версия телеграма", "output": "import pyautogui\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab', presses=8)\npyautogui.press('enter')"}
+{"instruction": "переключись на камеру", "output": "import pyautogui\n# Placeholder for a mouse click\n# No universal hotkey"}
+{"instruction": "отправь текущие координаты", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'o')\ntime.sleep(0.5)\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "покажи, где я нахожусь", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'o')\ntime.sleep(0.5)\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "отметь сообщение как важное", "output": "import pyautogui\n# Conceptual, add to Saved Messages as a proxy\npyautogui.hotkey('ctrl', 'f')\ntime.sleep(1)\npyautogui.write('Избранное')\ntime.sleep(1)\npyautogui.press('enter')"}
+{"instruction": "добавь в избранное", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')\ntime.sleep(1)\npyautogui.write('Избранное')\ntime.sleep(1)\npyautogui.press('enter')"}
+{"instruction": "найди все сообщения от меня", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')\npyautogui.write('from:me ')"}
+{"instruction": "покажи что я писал", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')\npyautogui.write('from:me ')"}
+{"instruction": "включи режим 'не беспокоить' на час", "output": "import pyautogui\n# Conceptual, requires navigating menus\npyautogui.hotkey('ctrl', 'shift', 'u')\n# ... further actions needed"}
+{"instruction": "без звука на час", "output": "import pyautogui\n# Conceptual, requires navigating menus\npyautogui.hotkey('ctrl', 'shift', 'u')\n# ... further actions needed"}
+{"instruction": "ответь на сообщение в другом чате", "output": "import pyautogui\n# Conceptual for Brain model\n# Requires switching chat then finding message"}
+{"instruction": "создай новую тему в группе", "output": "import pyautogui\n# Placeholder, requires UI interaction"}
+{"instruction": "поиск по всем сообщениям глобально", "output": "import pyautogui\npyautogui.hotkey('ctrl', '0')\npyautogui.hotkey('ctrl', 'f')"}
+{"instruction": "глобальный поиск", "output": "import pyautogui\npyautogui.hotkey('ctrl', '0')\npyautogui.hotkey('ctrl', 'f')"}
+{"instruction": "покажи статистику канала", "output": "import pyautogui\n# Placeholder, requires admin rights and UI clicks"}
+{"instruction": "статистика группы", "output": "import pyautogui\n# Placeholder, requires admin rights and UI clicks"}
+{"instruction": "пожаловаться на это сообщение", "output": "import pyautogui\npyautogui.hotkey('shift', 'f10')\n#... navigate to 'report'"}
+{"instruction": "кинь репорт", "output": "import pyautogui\npyautogui.hotkey('shift', 'f10')\n#... navigate to 'report'"}
+{"instruction": "скопируй ссылку на этот пост", "output": "import pyautogui\npyautogui.hotkey('shift', 'f10')\n#... navigate to 'copy link'"}
+{"instruction": "ссылка на сообщение", "output": "import pyautogui\npyautogui.hotkey('shift', 'f10')\n#... navigate to 'copy link'"}
+{"instruction": "выбери несколько сообщений", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'up')"}
+{"instruction": "выдели пару сообщений", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'up')\npyautogui.hotkey('ctrl', 'shift', 'up')"}
+{"instruction": "покажи чаты со мной", "output": "import pyautogui\npyautogui.hotkey('ctrl', '0')\npyautogui.write('Избранное')\ntime.sleep(1)\npyautogui.press('enter')"}
+{"instruction": "открой 'сохраненки'", "output": "import pyautogui\npyautogui.hotkey('ctrl', '0')\npyautogui.write('Избранное')\ntime.sleep(1)\npyautogui.press('enter')"}
+{"instruction": "перейти в настройки папок", "output": "import pyautogui\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab', presses=3)\npyautogui.press('enter')"}
+{"instruction": "настрой мои папки", "output": "import pyautogui\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab', presses=3)\npyautogui.press('enter')"}
+{"instruction": "перейти в настройки папок чатов", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab', presses=3, interval=0.1)\npyautogui.press('enter')"}
+{"instruction": "я хочу настроить папки", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab', presses=3, interval=0.1)\npyautogui.press('enter')"}
+{"instruction": "создай папку 'Важное'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab', presses=3, interval=0.1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('tab', presses=2, interval=0.1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('Важное')"}
+{"instruction": "добавь чат с 'Боссом' в папку", "output": "import pyautogui\n# Conceptual: requires searching for a chat and adding it via UI\n# Placeholder for a complex action"}
+{"instruction": "покажи чат-ботов в этой группе", "output": "import pyautogui\n# Conceptual: requires checking member list for 'bot' flag"}
+{"instruction": "сколько ботов в чате", "output": "import pyautogui\n# Conceptual: requires iterating through member list"}
+{"instruction": "измени номер телефона", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'p')\ntime.sleep(0.5)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('tab')\npyautogui.press('enter')"}
+{"instruction": "добавь мой юзернейм", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'p')\ntime.sleep(0.5)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('tab', presses=2, interval=0.1)\npyautogui.press('enter')"}
+{"instruction": "напиши в био 'разработчик'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'p')\ntime.sleep(0.5)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('tab', presses=3, interval=0.1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('разработчик')"}
+{"instruction": "очисти мою историю поиска", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')\ntime.sleep(0.5)\npyautogui.hotkey('shift', 'f10')\n# ...navigate to 'clear history'"}
+{"instruction": "поставь реакцию 'праздник'", "output": "import pyautogui\npyautogui.hotkey('ctrl', '6') # Assuming party is 6th"}
+{"instruction": "реакция 'грусть'", "output": "import pyautogui\npyautogui.hotkey('ctrl', '7') # Assuming sad is 7th"}
+{"instruction": "покажи все реакции на сообщении", "output": "import pyautogui\n# Conceptual: requires clicking on the reaction count"}
+{"instruction": "кто лайкнул этот пост", "output": "import pyautogui\n# Conceptual: requires clicking on the reaction count"}
+{"instruction": "добавь 'Алексея' в контакты", "output": "import pyautogui\n# Search -> Open Profile -> Add Contact\n# Placeholder for a complex sequence"}
+{"instruction": "сохрани этот контакт", "output": "import pyautogui\n# Placeholder for a complex sequence"}
+{"instruction": "заблокируй этого пользователя", "output": "import pyautogui\n# Open Profile -> ... -> Block\n# Placeholder for a complex sequence"}
+{"instruction": "кинь его в черный список", "output": "import pyautogui\n# Placeholder for a complex sequence"}
+{"instruction": "покажи заблокированных пользователей", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab', presses=2, interval=0.1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('tab', presses=4, interval=0.1)\npyautogui.press('enter')"}
+{"instruction": "открой черный список", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('tab', presses=2, interval=0.1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.press('tab', presses=4, interval=0.1)\npyautogui.press('enter')"}
+{"instruction": "создай опрос с несколькими ответами", "output": "import pyautogui\n# Open poll menu -> select multiple answers toggle"}
+{"instruction": "создай викторину", "output": "import pyautogui\n# Open poll menu -> select quiz mode toggle"}
+{"instruction": "отправь файл без сжатия", "output": "import pyautogui\n# Attach file -> check 'send without compression'"}
+{"instruction": "скинь фотку как документ", "output": "import pyautogui\n# Attach file -> check 'send without compression'"}
+{"instruction": "покажи общие медиа с 'Мариной'", "output": "import pyautogui\n# Search 'Марина' -> open profile -> open shared media"}
+{"instruction": "что мы друг другу кидали", "output": "import pyautogui\n# Search -> open profile -> open shared media"}
+{"instruction": "отметь чат как непрочитанный", "output": "import pyautogui\npyautogui.hotkey('shift', 'f10')\npyautogui.press('down', presses=2)\npyautogui.press('enter')"}
+{"instruction": "сделай вид что я это не читал", "output": "import pyautogui\npyautogui.hotkey('shift', 'f10')\npyautogui.press('down', presses=2)\npyautogui.press('enter')"}
+{"instruction": "добавь исключение в уведомлениях", "output": "import pyautogui\n# Settings -> Notifications -> Add exception"}
+{"instruction": "включи звук только для этого чата", "output": "import pyautogui\n# Settings -> Notifications -> Add exception"}
+{"instruction": "удали 'Олега' из группы", "output": "import pyautogui\n# Open members -> search 'Олег' -> ... -> remove"}
+{"instruction": "кикни его", "output": "import pyautogui\n# Open members -> search -> ... -> remove"}
+{"instruction": "назначь 'Ирину' админом", "output": "import pyautogui\n# Open members -> search 'Ирина' -> ... -> promote"}
+{"instruction": "дай админку", "output": "import pyautogui\n# Open members -> search -> ... -> promote"}
+{"instruction": "измени разрешения для группы", "output": "import pyautogui\n# Group info -> Edit -> Permissions"}
+{"instruction": "запрети отправку стикеров", "output": "import pyautogui\n# Group info -> Edit -> Permissions -> toggle stickers"}
+{"instruction": "включи медленный режим", "output": "import pyautogui\n# Group info -> Edit -> Slowmode"}
+{"instruction": "поставь ограничения для участников", "output": "import pyautogui\n# Group info -> Edit -> Permissions"}
+{"instruction": "найди все сообщения с хэштегом #важное", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')\npyautogui.write('#важное')"}
+{"instruction": "поиск по хэштегу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')\npyautogui.write('#')"}
+{"instruction": "покажи недавние действия админов", "output": "import pyautogui\n# Group info -> Administrators -> Recent actions"}
+{"instruction": "что делали админы", "output": "import pyautogui\n# Group info -> Administrators -> Recent actions"}
+{"instruction": "покажи сеанс видеочата", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'h')"}
+{"instruction": "начни видеоконференцию", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'h')"}
+{"instruction": "переведи текст этого сообщения", "output": "import pyautogui\n# Settings -> Language -> Enable translation"}
+{"instruction": "включи перевод сообщений", "output": "import pyautogui\n# Settings -> Language -> Enable translation"}
+{"instruction": "покажи оригинал сообщения", "output": "import pyautogui\n# Click 'show original' on a translated message"}
+{"instruction": "создай отложенное сообщение", "output": "import pyautogui\npyautogui.write('Напомнить в 17:00')\npyautogui.hotkey('shift', 'f10') # right click on send button\n# ... navigate to 'schedule message'"}
+{"instruction": "отправь это в пять вечера", "output": "import pyautogui\npyautogui.write('Напомнить в 17:00')\npyautogui.hotkey('shift', 'f10') # right click on send button\n# ... navigate to 'schedule message'"}
+{"instruction": "отправь без звука", "output": "import pyautogui\npyautogui.hotkey('shift', 'f10') # right click on send button\n# ... navigate to 'send silently'"}
+{"instruction": "тихое сообщение", "output": "import pyautogui\npyautogui.hotkey('shift', 'f10') # right click on send button\n# ... navigate to 'send silently'"}
+{"instruction": "ответь на это сообщение в личку", "output": "import pyautogui\n# Conceptual for Brain: requires copying message, searching user, pasting, and sending"}
+{"instruction": "напомни мне об этом сообщении через час", "output": "import pyautogui\n# Conceptual for Brain: requires forwarding to a reminder bot or Saved Messages with a note"}
+{"instruction": "открой чат с техподдержкой", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('down', presses=7)\npyautogui.press('enter')"}
+{"instruction": "задать вопрос в поддержку", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', ',')\ntime.sleep(0.5)\npyautogui.press('down', presses=7)\npyautogui.press('enter')"}
+{"instruction": "переключись на аккаунт номер 3", "output": "import pyautogui\n# Placeholder for mouse action"}
+{"instruction": "зайди под другим логином", "output": "import pyautogui\n# Placeholder for mouse action"}
+{"instruction": "найти все голосовые сообщения", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')\n# navigate to search type -> voice messages"}
+{"instruction": "поиск по голосовым", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')\n# navigate to search type -> voice messages"}
+{"instruction": "удали чат из папки", "output": "import pyautogui\n# Placeholder for UI interaction"}
+{"instruction": "скрой этот чат из ленты", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'a')"}
+{"instruction": "создай ссылку-приглашение в группу", "output": "import pyautogui\n# Group Info -> ... -> Invite Links"}
+{"instruction": "пригласительная ссылка", "output": "import pyautogui\n# Group Info -> ... -> Invite Links"}
+{"instruction": "скопируй мой юзернейм", "output": "import pyautogui\n# Profile -> Click on username"}
+{"instruction": "скинь мой ник", "output": "import pyautogui\n# Profile -> Click on username"}
+{"instruction": "отключи анимации", "output": "import pyautogui\n# Settings -> Advanced -> Animations"}
+{"instruction": "сделай интерфейс побыстрее", "output": "import pyautogui\n# Settings -> Advanced -> Animations"}
+{"instruction": "включи автозагрузку медиа", "output": "import pyautogui\n# Settings -> Advanced -> Automatic media download"}
+{"instruction": "не скачивай файлы автоматически", "output": "import pyautogui\n# Settings -> Advanced -> Automatic media download"}
+{"instruction": "где хранятся файлы телеграм", "output": "import pyautogui\n# Settings -> Advanced -> Download path"}
+{"instruction": "покажи путь к загрузкам", "output": "import pyautogui\n# Settings -> Advanced -> Download path"}
+{"instruction": "используй системное обрамление окна", "output": "import pyautogui\n# Settings -> Advanced -> System integration"}
+{"instruction": "интеграция с системой", "output": "import pyautogui\n# Settings -> Advanced -> System integration"}
+{"instruction": "покажи все видеосообщения", "output": "import pyautogui\n# Search -> filter by video messages"}
+{"instruction": "поиск по кружочкам", "output": "import pyautogui\n# Search -> filter by video messages"}
+{"instruction": "отправь анонимное сообщение в группе", "output": "import pyautogui\n# If admin with such rights, click profile picture before sending"}
+{"instruction": "напиши от имени канала", "output": "import pyautogui\n# If admin with such rights, click profile picture before sending"}
+{"instruction": "ответь на сообщение в теме", "output": "import pyautogui\n# Navigate to topic -> reply"}
+{"instruction": "найди топик 'обсуждение'", "output": "import pyautogui\n# Navigate to topic list -> search"}
+{"instruction": "закрой все чаты и выйди", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'q')"}
+{"instruction": "полностью заверши работу телеграм", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'q')"}
+{"instruction": "перейти в чат по номеру телефона", "output": "import pyautogui\n# Contacts -> Add contact -> by phone"}
+{"instruction": "добавь контакт по номеру", "output": "import pyautogui\n# Contacts -> Add contact -> by phone"}
+{"instruction": "покажи всех, кто рядом", "output": "import pyautogui\n# Contacts -> Find People Nearby"}
+{"instruction": "люди поблизости", "output": "import pyautogui\n# Contacts -> Find People Nearby"}
+{"instruction": "создай напоминание", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\npyautogui.write('Избранное')\ntime.sleep(1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('Напомни мне о встрече')\npyautogui.hotkey('shift', 'f10')\n#... navigate to 'set a reminder'"}
+{"instruction": "напомни мне об этом", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', '0')\npyautogui.write('Избранное')\ntime.sleep(1)\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.hotkey('shift', 'f10')\n#... navigate to 'set a reminder'"}
+{"instruction": "покажи список команд для бота", "output": "import pyautogui\npyautogui.write('/')"}
+{"instruction": "какие команды у этого бота", "output": "import pyautogui\npyautogui.write('/')"}
+{"instruction": "очисти кэш телеграма", "output": "import pyautogui\n# Settings -> Advanced -> Manage local storage"}
+{"instruction": "сколько места занимает телеграм", "output": "import pyautogui\n# Settings -> Advanced -> Manage local storage"}
+{"instruction": "покажи стикеры для этого эмодзи", "output": "import pyautogui\n# Type emoji -> wait for suggestions"}
+{"instruction": "какие стикеры подходят", "output": "import pyautogui\n# Type emoji -> wait for suggestions"}
+{"instruction": "выбери второй стикер", "output": "import pyautogui\n# Type emoji -> Tab -> Right -> Enter"}
+{"instruction": "отправь третий предложенный стикер", "output": "import pyautogui\n# Type emoji -> Tab -> Right -> Right -> Enter"}
+{"instruction": "открой 'Избранное'", "output": "import pyautogui\npyautogui.hotkey('ctrl', '0')\npyautogui.write('Избранное')\ntime.sleep(1)\npyautogui.press('enter')"}
+{"instruction": "мне нужен мой чат с самим собой", "output": "import pyautogui\npyautogui.hotkey('ctrl', '0')\npyautogui.write('Избранное')\ntime.sleep(1)\npyautogui.press('enter')"}
+{"instruction": "проверь правописание", "output": "import pyautogui\n# Settings -> Advanced -> Enable spell checker"}
+{"instruction": "включи спеллчекер", "output": "import pyautogui\n# Settings -> Advanced -> Enable spell checker"}
+{"instruction": "замени слово", "output": "import pyautogui\npyautogui.hotkey('shift', 'f10')\n# ... navigate to suggestion"}
+{"instruction": "добавь слово в словарь", "output": "import pyautogui\npyautogui.hotkey('shift', 'f10')\n# ... navigate to 'add to dictionary'"}
+{"instruction": "покажи частые контакты", "output": "import pyautogui\n# Conceptual, UI-based"}
+{"instruction": "с кем я чаще всего общаюсь", "output": "import pyautogui\n# Conceptual, UI-based"}
+{"instruction": "отправь контакт 'Олега' 'Марии'", "output": "import pyautogui\n# Conceptual for Brain: find Oleg, get contact, find Maria, send contact"}
+{"instruction": "поделись контактом", "output": "import pyautogui\n# Conceptual for Brain"}
+{"instruction": "сделай резервную копию", "output": "import pyautogui\n# Settings -> Advanced -> Export Telegram Data"}
+{"instruction": "бэкап моих данных", "output": "import pyautogui\n# Settings -> Advanced -> Export Telegram Data"}
+{"instruction": "покажи все мои устройства", "output": "import pyautogui\n# Settings -> Devices"}
+{"instruction": "активные сеансы", "output": "import pyautogui\n# Settings -> Devices"}
+{"instruction": "заверши все другие сеансы", "output": "import pyautogui\n# Settings -> Devices -> Terminate all other sessions"}
+{"instruction": "выйди со всех устройств", "output": "import pyautogui\n# Settings -> Devices -> Terminate all other sessions"}
+{"instruction": "поставь двухфакторную аутентификацию", "output": "import pyautogui\n# Settings -> Privacy -> Two-step verification"}
+{"instruction": "настрой 2фа", "output": "import pyautogui\n# Settings -> Privacy -> Two-step verification"}
+{"instruction": "скрой мой номер телефона", "output": "import pyautogui\n# Settings -> Privacy -> Phone Number"}
+{"instruction": "кто видит мой номер", "output": "import pyautogui\n# Settings -> Privacy -> Phone Number"}
+{"instruction": "кто видит время моей последней активности", "output": "import pyautogui\n# Settings -> Privacy -> Last Seen & Online"}
+{"instruction": "скрой мой онлайн статус", "output": "import pyautogui\n# Settings -> Privacy -> Last Seen & Online"}
+{"instruction": "настрой прокси", "output": "import pyautogui\n# Settings -> Advanced -> Connection type"}
+{"instruction": "использовать прокси", "output": "import pyautogui\n# Settings -> Advanced -> Connection type"}
+{"instruction": "позвони, используя телеграм", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'c')"}
+{"instruction": "сделай звонок", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'c')"}
+{"instruction": "отключи предпросмотр ссылок", "output": "import pyautogui\n# Settings -> Chat Settings -> Link Previews"}
+{"instruction": "не показывать превью ссылок", "output": "import pyautogui\n# Settings -> Chat Settings -> Link Previews"}
+{"instruction": "выбери язык для перевода", "output": "import pyautogui\n# Settings -> Language -> Translate to"}
+{"instruction": "на какой язык переводить", "output": "import pyautogui\n# Settings -> Language -> Translate to"}
+{"instruction": "добавь папку 'Новости'", "output": "import pyautogui\n# Settings -> Chat Folders -> Create New Folder"}
+{"instruction": "папка для новостных каналов", "output": "import pyautogui\n# Settings -> Chat Folders -> Create New Folder"}
+{"instruction": "покажи анимированные стикеры", "output": "import pyautogui\n# Placeholder"}
+{"instruction": "где тут анимированные стикеры", "output": "import pyautogui\n# Placeholder"}
+{"instruction": "прокрути список чатов вниз", "output": "import pyautogui\npyautogui.hotkey('pagedown')"}
+{"instruction": "прокрути список чатов вверх", "output": "import pyautogui\npyautogui.hotkey('pageup')"}
+{"instruction": "открой чат с непрочитанными сообщениями", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'down')"}
+{"instruction": "следующий непрочитанный", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'down')"}
+{"instruction": "предыдущий непрочитанный", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'up')"}
+{"instruction": "перейти к предыдущему непрочитанному", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'up')"}
+{"instruction": "ответь на сообщение в всплывающем окне", "output": "import pyautogui\n# This depends on OS notifications"}
+{"instruction": "быстрый ответ", "output": "import pyautogui\n# This depends on OS notifications"}
+{"instruction": "закрепи чат 'Проект' наверху", "output": "import pyautogui\n# Search 'Проект' -> Right click -> Pin"}
+{"instruction": "пин чата", "output": "import pyautogui\n# Right click on chat -> Pin"}
+{"instruction": "открепи этот чат", "output": "import pyautogui\n# Right click on chat -> Unpin"}
+{"instruction": "убрать из закрепа", "output": "import pyautogui\n# Right click on chat -> Unpin"}
+{"instruction": "покажи видео в режиме 'картинка в картинке'", "output": "import pyautogui\n# Right click on video -> Picture-in-picture"}
+{"instruction": "включи режим 'картинка в картинке'", "output": "import pyautogui\n# Right click on video -> Picture-in-picture"}
+{"instruction": "включи автозамену", "output": "import pyautogui\n# Settings -> Advanced -> Enable text replacements"}
+{"instruction": "настрой автозамену", "output": "import pyautogui\n# Settings -> Advanced -> Enable text replacements"}
+{"instruction": "создай новый документ", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'n')"}
+{"instruction": "новый файл", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'n')"}
+{"instruction": "открой документ", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'o')"}
+{"instruction": "открыть файл", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'o')"}
+{"instruction": "сохрани документ", "output": "import pyautogui\npyautogui.hotkey('ctrl', 's')"}
+{"instruction": "сохранить", "output": "import pyautogui\npyautogui.hotkey('ctrl', 's')"}
+{"instruction": "сохрани как", "output": "import pyautogui\npyautogui.hotkey('f12')"}
+{"instruction": "сохранить документ под другим именем", "output": "import pyautogui\npyautogui.hotkey('f12')"}
+{"instruction": "распечатай этот документ", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'p')"}
+{"instruction": "отправить на печать", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'p')"}
+{"instruction": "закрой этот файл", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'w')"}
+{"instruction": "закрой документ", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'w')"}
+{"instruction": "сделай текст жирным", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'b')"}
+{"instruction": "выдели жирным", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'b')"}
+{"instruction": "сделай курсивом", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'i')"}
+{"instruction": "выдели курсивом", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'i')"}
+{"instruction": "подчеркни этот текст", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'u')"}
+{"instruction": "добавь подчеркивание", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'u')"}
+{"instruction": "увеличь размер шрифта", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '>')"}
+{"instruction": "сделай шрифт побольше", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '>')"}
+{"instruction": "уменьши размер шрифта", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '<')"}
+{"instruction": "сделай шрифт поменьше", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '<')"}
+{"instruction": "выровняй текст по левому краю", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'l')"}
+{"instruction": "выравнивание влево", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'l')"}
+{"instruction": "выровняй текст по центру", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'e')"}
+{"instruction": "поставь по центру", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'e')"}
+{"instruction": "выровняй текст по правому краю", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'r')"}
+{"instruction": "выравнивание вправо", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'r')"}
+{"instruction": "выровняй текст по ширине", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'j')"}
+{"instruction": "выравнивание по ширине", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'j')"}
+{"instruction": "отмени последнее действие", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'z')"}
+{"instruction": "отменить", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'z')"}
+{"instruction": "верни отмененное действие", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'y')"}
+{"instruction": "повторить", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'y')"}
+{"instruction": "вырежи этот фрагмент", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'x')"}
+{"instruction": "скопируй этот текст", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'c')"}
+{"instruction": "вставь скопированное", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'v')"}
+{"instruction": "выдели весь документ", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'a')"}
+{"instruction": "выбрать все", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'a')"}
+{"instruction": "найди слово 'проект'", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')\npyautogui.write('проект')"}
+{"instruction": "поиск по документу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')"}
+{"instruction": "замени слово 'старый' на 'новый'", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'h')\npyautogui.write('старый')\npyautogui.press('tab')\npyautogui.write('новый')"}
+{"instruction": "найти и заменить", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'h')"}
+{"instruction": "перейди в начало документа", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'home')"}
+{"instruction": "в самый верх", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'home')"}
+{"instruction": "перейди в конец документа", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'end')"}
+{"instruction": "в самый низ", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'end')"}
+{"instruction": "вставь разрыв страницы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'enter')"}
+{"instruction": "новая страница", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'enter')"}
+{"instruction": "сделай двойной интервал", "output": "import pyautogui\npyautogui.hotkey('ctrl', '2')"}
+{"instruction": "двойной межстрочный интервал", "output": "import pyautogui\npyautogui.hotkey('ctrl', '2')"}
+{"instruction": "сделай полуторный интервал", "output": "import pyautogui\npyautogui.hotkey('ctrl', '5')"}
+{"instruction": "полуторный межстрочный интервал", "output": "import pyautogui\npyautogui.hotkey('ctrl', '5')"}
+{"instruction": "сделай одинарный интервал", "output": "import pyautogui\npyautogui.hotkey('ctrl', '1')"}
+{"instruction": "одинарный межстрочный интервал", "output": "import pyautogui\npyautogui.hotkey('ctrl', '1')"}
+{"instruction": "проверь орфографию", "output": "import pyautogui\npyautogui.hotkey('f7')"}
+{"instruction": "проверка правописания", "output": "import pyautogui\npyautogui.hotkey('f7')"}
+{"instruction": "вставь гиперссылку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')"}
+{"instruction": "добавить ссылку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')"}
+{"instruction": "сделай текст подстрочным", "output": "import pyautogui\npyautogui.hotkey('ctrl', '=')"}
+{"instruction": "нижний индекс", "output": "import pyautogui\npyautogui.hotkey('ctrl', '=')"}
+{"instruction": "сделай текст надстрочным", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '+')"}
+{"instruction": "верхний индекс", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '+')"}
+{"instruction": "измени регистр букв", "output": "import pyautogui\npyautogui.hotkey('shift', 'f3')"}
+{"instruction": "сделай все буквы заглавными", "output": "import pyautogui\npyautogui.hotkey('shift', 'f3')\npyautogui.hotkey('shift', 'f3')"}
+{"instruction": "очисти форматирование", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'space')"}
+{"instruction": "убери все стили", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'space')"}
+{"instruction": "добавь отступ для абзаца", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'm')"}
+{"instruction": "увеличить отступ", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'm')"}
+{"instruction": "уменьши отступ для абзаца", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'm')"}
+{"instruction": "уменьшить отступ", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'm')"}
+{"instruction": "покажи непечатаемые символы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '8')"}
+{"instruction": "показать все знаки", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '8')"}
+{"instruction": "вставь текущую дату", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'd')"}
+{"instruction": "сегодняшняя дата", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'd')"}
+{"instruction": "вставь текущее время", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 't')"}
+{"instruction": "сколько сейчас времени", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 't')"}
+{"instruction": "перейди на страницу 5", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'g')\npyautogui.write('5')\npyautogui.press('enter')"}
+{"instruction": "открой страницу номер 12", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'g')\npyautogui.write('12')\npyautogui.press('enter')"}
+{"instruction": "создай нумерованный список", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'l')"}
+{"instruction": "включи нумерацию", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'l')"}
+{"instruction": "создай маркированный список", "output": "import pyautogui\n# No universal hotkey, using Alt sequence\npyautogui.hotkey('alt', 'h', 'u')"}
+{"instruction": "включи маркеры", "output": "import pyautogui\n# No universal hotkey, using Alt sequence\npyautogui.hotkey('alt', 'h', 'u')"}
+{"instruction": "добавь комментарий", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'm')"}
+{"instruction": "прокомментируй это место", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'm')"}
+{"instruction": "перейти к следующему комментарию", "output": "import pyautogui\n# Conceptual, requires navigation"}
+{"instruction": "вставь таблицу 3 на 4", "output": "import pyautogui\npyautogui.hotkey('alt', 'n', 't', 'i')\npyautogui.write('3x4')\npyautogui.press('enter')"}
+{"instruction": "мне нужна таблица 5 на 2", "output": "import pyautogui\npyautogui.hotkey('alt', 'n', 't', 'i')\npyautogui.write('5x2')\npyautogui.press('enter')"}
+{"instruction": "следующая ячейка в таблице", "output": "import pyautogui\npyautogui.press('tab')"}
+{"instruction": "предыдущая ячейка", "output": "import pyautogui\npyautogui.hotkey('shift', 'tab')"}
+{"instruction": "покажи линейку", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'r')"}
+{"instruction": "включи линейку", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'r')"}
+{"instruction": "раздели окно на две части", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 's')"}
+{"instruction": "покажи два окна", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 's')"}
+{"instruction": "просмотр в режиме чтения", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'f')"}
+{"instruction": "режим чтения", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'f')"}
+{"instruction": "покажи структуру документа", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'k')"}
+{"instruction": "включи область навигации", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'k')"}
+{"instruction": "примени стиль 'Заголовок 1'", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', '1')"}
+{"instruction": "сделай это главным заголовком", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', '1')"}
+{"instruction": "примени стиль 'Заголовок 2'", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', '2')"}
+{"instruction": "это подзаголовок второго уровня", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', '2')"}
+{"instruction": "примени стиль 'Заголовок 3'", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', '3')"}
+{"instruction": "это заголовок третьего уровня", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', '3')"}
+{"instruction": "верни обычный стиль текста", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'n')"}
+{"instruction": "сбрось до нормального стиля", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'n')"}
+{"instruction": "открой панель стилей", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'shift', 's')"}
+{"instruction": "покажи все стили", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'shift', 's')"}
+{"instruction": "создай новый стиль", "output": "import pyautogui\n# Opens Styles pane, then user needs to click 'New Style' button"}
+{"instruction": "вставь сноску", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'f')"}
+{"instruction": "добавь подстрочное примечание", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'f')"}
+{"instruction": "вставь концевую сноску", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'd')"}
+{"instruction": "добавь примечание в конце документа", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'd')"}
+{"instruction": "включи режим отслеживания исправлений", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'e')"}
+{"instruction": "отслеживай изменения", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'e')"}
+{"instruction": "принять это исправление", "output": "import pyautogui\n# Requires Review tab -> Accept"}
+{"instruction": "отклонить это исправление", "output": "import pyautogui\n# Requires Review tab -> Reject"}
+{"instruction": "перейти к следующему исправлению", "output": "import pyautogui\n# Requires navigating the review pane"}
+{"instruction": "перейти к предыдущему комментарию", "output": "import pyautogui\n# Requires navigating the comments pane"}
+{"instruction": "вставь строку в таблицу выше", "output": "import pyautogui\n# With cursor in table\npyautogui.hotkey('alt', 'j', 'l', 'a')"}
+{"instruction": "добавь строку над этой", "output": "import pyautogui\n# With cursor in table\npyautogui.hotkey('alt', 'j', 'l', 'a')"}
+{"instruction": "вставь строку в таблицу ниже", "output": "import pyautogui\n# With cursor in table\npyautogui.hotkey('alt', 'j', 'l', 'e')"}
+{"instruction": "добавь строку под этой", "output": "import pyautogui\n# With cursor in table\npyautogui.hotkey('alt', 'j', 'l', 'e')"}
+{"instruction": "вставь столбец слева", "output": "import pyautogui\n# With cursor in table\npyautogui.hotkey('alt', 'j', 'l', 'l')"}
+{"instruction": "добавь колонку слева", "output": "import pyautogui\n# With cursor in table\npyautogui.hotkey('alt', 'j', 'l', 'l')"}
+{"instruction": "вставь столбец справа", "output": "import pyautogui\n# With cursor in table\npyautogui.hotkey('alt', 'j', 'l', 'r')"}
+{"instruction": "добавь колонку справа", "output": "import pyautogui\n# With cursor in table\npyautogui.hotkey('alt', 'j', 'l', 'r')"}
+{"instruction": "удали текущую строку таблицы", "output": "import pyautogui\n# With cursor in table\npyautogui.hotkey('alt', 'j', 'd', 'r')"}
+{"instruction": "удали эту строку", "output": "import pyautogui\n# With cursor in table\npyautogui.hotkey('alt', 'j', 'd', 'r')"}
+{"instruction": "удали текущий столбец таблицы", "output": "import pyautogui\n# With cursor in table\npyautogui.hotkey('alt', 'j', 'd', 'c')"}
+{"instruction": "удали эту колонку", "output": "import pyautogui\n# With cursor in table\npyautogui.hotkey('alt', 'j', 'd', 'c')"}
+{"instruction": "удали всю таблицу", "output": "import pyautogui\n# With cursor in table\npyautogui.hotkey('alt', 'j', 'd', 't')"}
+{"instruction": "сотри таблицу", "output": "import pyautogui\n# With cursor in table\npyautogui.hotkey('alt', 'j', 'd', 't')"}
+{"instruction": "объедини ячейки", "output": "import pyautogui\n# With cells selected\npyautogui.hotkey('alt', 'j', 'm')"}
+{"instruction": "сделай из этих ячеек одну", "output": "import pyautogui\n# With cells selected\npyautogui.hotkey('alt', 'j', 'm')"}
+{"instruction": "раздели ячейку", "output": "import pyautogui\n# With cursor in cell\npyautogui.hotkey('alt', 'j', 'p')"}
+{"instruction": "разбить эту ячейку", "output": "import pyautogui\n# With cursor in cell\npyautogui.hotkey('alt', 'j', 'p')"}
+{"instruction": "переключись в режим структуры", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'o')"}
+{"instruction": "покажи структуру", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'o')"}
+{"instruction": "переключись в режим черновика", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'n')"}
+{"instruction": "покажи черновик", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'n')"}
+{"instruction": "переключись в режим веб-документа", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'p')"}
+{"instruction": "веб-разметка", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'p')"}
+{"instruction": "вернись в режим разметки страницы", "output": "import pyautogui\n# Usually the default, can be accessed via Alt sequence\npyautogui.hotkey('alt', 'w', 'p')"}
+{"instruction": "обычный вид", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'p')"}
+{"instruction": "переключись на следующий открытый документ", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f6')"}
+{"instruction": "покажи другой файл ворда", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f6')"}
+{"instruction": "переключись на предыдущий открытый документ", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'f6')"}
+{"instruction": "предыдущий файл ворда", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'f6')"}
+{"instruction": "вставь поле", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f9')"}
+{"instruction": "добавь код поля", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f9')"}
+{"instruction": "обнови поля в документе", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'a')\npyautogui.hotkey('f9')"}
+{"instruction": "обновить все поля", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'a')\npyautogui.hotkey('f9')"}
+{"instruction": "покажи тезаурус для слова", "output": "import pyautogui\npyautogui.hotkey('shift', 'f7')"}
+{"instruction": "найди синонимы", "output": "import pyautogui\npyautogui.hotkey('shift', 'f7')"}
+{"instruction": "посчитай слова в документе", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'g')"}
+{"instruction": "статистика по документу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'g')"}
+{"instruction": "повтори ввод текста", "output": "import pyautogui\npyautogui.hotkey('f4')"}
+{"instruction": "вставь то же самое еще раз", "output": "import pyautogui\npyautogui.hotkey('f4')"}
+{"instruction": "перейти к следующему полю в таблице", "output": "import pyautogui\npyautogui.press('tab')"}
+{"instruction": "перейти к предыдущему полю в таблице", "output": "import pyautogui\npyautogui.hotkey('shift', 'tab')"}
+{"instruction": "вставь символ авторского права", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'c')"}
+{"instruction": "знак копирайта", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'c')"}
+{"instruction": "вставь символ торговой марки", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 't')"}
+{"instruction": "знак трейдмарк", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 't')"}
+{"instruction": "вставь символ зарегистрированной торговой марки", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'r')"}
+{"instruction": "знак R в кружочке", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'r')"}
+{"instruction": "вставь многоточие", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', '.')"}
+{"instruction": "три точки", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', '.')"}
+{"instruction": "повтори форматирование", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'c')\n# ... move cursor ...\npyautogui.hotkey('ctrl', 'shift', 'v')"}
+{"instruction": "копируй формат", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'c')"}
+{"instruction": "примени скопированный формат", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'v')"}
+{"instruction": "вставь как обычный текст", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'v')\npyautogui.press('enter')"}
+{"instruction": "вставить без форматирования", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'v')\npyautogui.press('enter')"}
+{"instruction": "скрой ленту меню", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f1')"}
+{"instruction": "покажи ленту меню", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f1')"}
+{"instruction": "перейти на вкладку 'вставка'", "output": "import pyautogui\npyautogui.hotkey('alt', 'n')"}
+{"instruction": "открой меню вставки", "output": "import pyautogui\npyautogui.hotkey('alt', 'n')"}
+{"instruction": "перейти на вкладку 'конструктор'", "output": "import pyautogui\npyautogui.hotkey('alt', 'g')"}
+{"instruction": "открой меню конструктора", "output": "import pyautogui\npyautogui.hotkey('alt', 'g')"}
+{"instruction": "перейти на вкладку 'рецензирование'", "output": "import pyautogui\npyautogui.hotkey('alt', 'r')"}
+{"instruction": "открой меню рецензирования", "output": "import pyautogui\npyautogui.hotkey('alt', 'r')"}
+{"instruction": "перейти на вкладку 'ссылки'", "output": "import pyautogui\npyautogui.hotkey('alt', 's')"}
+{"instruction": "открой меню ссылок", "output": "import pyautogui\npyautogui.hotkey('alt', 's')"}
+{"instruction": "создай оглавление", "output": "import pyautogui\n# Requires References tab -> Table of Contents"}
+{"instruction": "обнови оглавление", "output": "import pyautogui\n# Requires clicking on the TOC -> Update Field (F9)"}
+{"instruction": "вставь название", "output": "import pyautogui\n# References -> Insert Caption"}
+{"instruction": "добавь подпись к рисунку", "output": "import pyautogui\n# References -> Insert Caption"}
+{"instruction": "добавь колонтитул", "output": "import pyautogui\n# Insert -> Header/Footer"}
+{"instruction": "измени верхний колонтитул", "output": "import pyautogui\n# Double-click header area"}
+{"instruction": "добавь номера страниц", "output": "import pyautogui\npyautogui.hotkey('alt', 'n', 'nu')"}
+{"instruction": "пронумеруй страницы", "output": "import pyautogui\npyautogui.hotkey('alt', 'n', 'nu')"}
+{"instruction": "вставь водяной знак", "output": "import pyautogui\n# Design -> Watermark"}
+{"instruction": "добавь подложку", "output": "import pyautogui\n# Design -> Watermark"}
+{"instruction": "измени цвет страницы", "output": "import pyautogui\n# Design -> Page Color"}
+{"instruction": "поставь границы страницы", "output": "import pyautogui\n# Design -> Page Borders"}
+{"instruction": "создай новую книгу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'n')"}
+{"instruction": "новый файл эксель", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'n')"}
+{"instruction": "открой файл", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'o')"}
+{"instruction": "сохрани эту книгу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 's')"}
+{"instruction": "сохранить как", "output": "import pyautogui\npyautogui.hotkey('f12')"}
+{"instruction": "распечатай лист", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'p')"}
+{"instruction": "закрой этот файл", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'w')"}
+{"instruction": "перейди на ячейку вправо", "output": "import pyautogui\npyautogui.press('right')"}
+{"instruction": "ячейка слева", "output": "import pyautogui\npyautogui.press('left')"}
+{"instruction": "перейди на ячейку вниз", "output": "import pyautogui\npyautogui.press('down')"}
+{"instruction": "ячейка сверху", "output": "import pyautogui\npyautogui.press('up')"}
+{"instruction": "перейди в начало строки", "output": "import pyautogui\npyautogui.press('home')"}
+{"instruction": "перейди в ячейку А1", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'home')"}
+{"instruction": "в начало листа", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'home')"}
+{"instruction": "перейди к последней ячейке на листе", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'end')"}
+{"instruction": "в конец данных", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'end')"}
+{"instruction": "перейди на лист вправо", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'pagedown')"}
+{"instruction": "следующий лист", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'pagedown')"}
+{"instruction": "перейди на лист влево", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'pageup')"}
+{"instruction": "предыдущий лист", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'pageup')"}
+{"instruction": "редактируй эту ячейку", "output": "import pyautogui\npyautogui.hotkey('f2')"}
+{"instruction": "измени значение в ячейке", "output": "import pyautogui\npyautogui.hotkey('f2')"}
+{"instruction": "отмени ввод", "output": "import pyautogui\npyautogui.press('esc')"}
+{"instruction": "вставь текущую дату", "output": "import pyautogui\npyautogui.hotkey('ctrl', ';')"}
+{"instruction": "сегодняшнее число", "output": "import pyautogui\npyautogui.hotkey('ctrl', ';')"}
+{"instruction": "вставь текущее время", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', ';')"}
+{"instruction": "точное время", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', ';')"}
+{"instruction": "отмени действие", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'z')"}
+{"instruction": "повтори действие", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'y')"}
+{"instruction": "найди 'итого'", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')\npyautogui.write('итого')"}
+{"instruction": "поиск", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')"}
+{"instruction": "замени 'январь' на 'февраль'", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'h')\npyautogui.write('январь')\npyautogui.press('tab')\npyautogui.write('февраль')"}
+{"instruction": "найти и заменить", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'h')"}
+{"instruction": "сделай текст жирным", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'b')"}
+{"instruction": "курсив", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'i')"}
+{"instruction": "подчеркнутый текст", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'u')"}
+{"instruction": "зачеркнутый текст", "output": "import pyautogui\npyautogui.hotkey('ctrl', '5')"}
+{"instruction": "открой формат ячеек", "output": "import pyautogui\npyautogui.hotkey('ctrl', '1')"}
+{"instruction": "настройки ячейки", "output": "import pyautogui\npyautogui.hotkey('ctrl', '1')"}
+{"instruction": "примени денежный формат", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '$')"}
+{"instruction": "формат валюты", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '$')"}
+{"instruction": "примени процентный формат", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '%')"}
+{"instruction": "процентный формат", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '%')"}
+{"instruction": "примени числовой формат", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '!')"}
+{"instruction": "обычный числовой формат", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '!')"}
+{"instruction": "начни формулу", "output": "import pyautogui\npyautogui.press('=')"}
+{"instruction": "посчитай сумму", "output": "import pyautogui\npyautogui.hotkey('alt', '=')"}
+{"instruction": "автосумма", "output": "import pyautogui\npyautogui.hotkey('alt', '=')"}
+{"instruction": "покажи все формулы", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')"}
+{"instruction": "скрой формулы", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')"}
+{"instruction": "выдели весь столбец", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'space')"}
+{"instruction": "выбери колонку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'space')"}
+{"instruction": "выдели всю строку", "output": "import pyautogui\npyautogui.hotkey('shift', 'space')"}
+{"instruction": "выбери строчку", "output": "import pyautogui\npyautogui.hotkey('shift', 'space')"}
+{"instruction": "выдели весь лист", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'a')"}
+{"instruction": "выбрать все", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'a')"}
+{"instruction": "вставь новый лист", "output": "import pyautogui\npyautogui.hotkey('shift', 'f11')"}
+{"instruction": "добавь лист", "output": "import pyautogui\npyautogui.hotkey('shift', 'f11')"}
+{"instruction": "удали текущий лист", "output": "import pyautogui\npyautogui.hotkey('alt', 'e', 'l')"}
+{"instruction": "перейди в ячейку D5", "output": "import pyautogui\npyautogui.hotkey('f5')\npyautogui.write('D5')\npyautogui.press('enter')"}
+{"instruction": "ячейка G10", "output": "import pyautogui\npyautogui.hotkey('f5')\npyautogui.write('G10')\npyautogui.press('enter')"}
+{"instruction": "вставь строку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '+')\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "добавь пустую строку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '+')\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "вставь столбец", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '+')\npyautogui.press('right')\npyautogui.press('enter')"}
+{"instruction": "добавь пустой столбец", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '+')\npyautogui.press('right')\npyautogui.press('enter')"}
+{"instruction": "удали строку", "output": "import pyautogui\npyautogui.hotkey('ctrl', '-')\npyautogui.press('down')\npyautogui.press('enter')"}
+{"instruction": "удали столбец", "output": "import pyautogui\npyautogui.hotkey('ctrl', '-')\npyautogui.press('right')\npyautogui.press('enter')"}
+{"instruction": "скрой текущий столбец", "output": "import pyautogui\npyautogui.hotkey('ctrl', '0')"}
+{"instruction": "скрой эту колонку", "output": "import pyautogui\npyautogui.hotkey('ctrl', '0')"}
+{"instruction": "скрой текущую строку", "output": "import pyautogui\npyautogui.hotkey('ctrl', '9')"}
+{"instruction": "спрячь эту строчку", "output": "import pyautogui\npyautogui.hotkey('ctrl', '9')"}
+{"instruction": "покажи скрытые строки", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '9')"}
+{"instruction": "отобрази строки", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '9')"}
+{"instruction": "покажи скрытые столбцы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '0')"}
+{"instruction": "отобрази столбцы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '0')"}
+{"instruction": "создай таблицу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 't')"}
+{"instruction": "отформатируй как таблицу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 't')"}
+{"instruction": "включи фильтр", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'l')"}
+{"instruction": "добавь автофильтр", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'l')"}
+{"instruction": "вставь диаграмму на этот лист", "output": "import pyautogui\npyautogui.hotkey('alt', 'f1')"}
+{"instruction": "создай диаграмму", "output": "import pyautogui\npyautogui.hotkey('alt', 'f1')"}
+{"instruction": "вставь диаграмму на новый лист", "output": "import pyautogui\npyautogui.hotkey('f11')"}
+{"instruction": "диаграмма на отдельном листе", "output": "import pyautogui\npyautogui.hotkey('f11')"}
+{"instruction": "добавь комментарий к ячейке", "output": "import pyautogui\npyautogui.hotkey('shift', 'f2')"}
+{"instruction": "прокомментируй ячейку", "output": "import pyautogui\npyautogui.hotkey('shift', 'f2')"}
+{"instruction": "скопируй значение из ячейки выше", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'd')"}
+{"instruction": "заполни вниз", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'd')"}
+{"instruction": "скопируй значение из ячейки слева", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'r')"}
+{"instruction": "заполни вправо", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'r')"}
+{"instruction": "вставь гиперссылку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')"}
+{"instruction": "сделай ссылку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')"}
+{"instruction": "перенеси текст в ячейке", "output": "import pyautogui\npyautogui.hotkey('alt', 'h', 'w')"}
+{"instruction": "включи перенос по словам", "output": "import pyautogui\npyautogui.hotkey('alt', 'h', 'w')"}
+{"instruction": "объедини и центрируй ячейки", "output": "import pyautogui\npyautogui.hotkey('alt', 'h', 'm', 'c')"}
+{"instruction": "сделай заголовок для таблицы", "output": "import pyautogui\npyautogui.hotkey('alt', 'h', 'm', 'c')"}
+{"instruction": "поставь внешние границы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '&')"}
+{"instruction": "обведи ячейки рамкой", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '&')"}
+{"instruction": "убери все границы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '_')"}
+{"instruction": "очисти рамки", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '_')"}
+{"instruction": "создай сводную таблицу", "output": "import pyautogui\npyautogui.hotkey('alt', 'n', 'v')"}
+{"instruction": "сводная таблица", "output": "import pyautogui\npyautogui.hotkey('alt', 'n', 'v')"}
+{"instruction": "обнови сводную таблицу", "output": "import pyautogui\npyautogui.hotkey('alt', 'f5')"}
+{"instruction": "обновить данные", "output": "import pyautogui\npyautogui.hotkey('alt', 'f5')"}
+{"instruction": "сгруппируй эти ячейки", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'right')"}
+{"instruction": "создать группу", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'right')"}
+{"instruction": "разгруппируй эти ячейки", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'left')"}
+{"instruction": "убрать группировку", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'left')"}
+{"instruction": "скрой детали группы", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'h')"}
+{"instruction": "сверни группу", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'h')"}
+{"instruction": "покажи детали группы", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'j')"}
+{"instruction": "разверни группу", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'j')"}
+{"instruction": "открой проверку данных", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'v', 'v')"}
+{"instruction": "настрой проверку данных", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'v', 'v')"}
+{"instruction": "удали дубликаты", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'm')"}
+{"instruction": "убрать повторяющиеся значения", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'm')"}
+{"instruction": "преобразуй текст в столбцы", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'e')"}
+{"instruction": "разделить текст по столбцам", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'e')"}
+{"instruction": "вставь примечание", "output": "import pyautogui\npyautogui.hotkey('shift', 'f2')"}
+{"instruction": "добавь заметку к ячейке", "output": "import pyautogui\npyautogui.hotkey('shift', 'f2')"}
+{"instruction": "открой диспетчер имен", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f3')"}
+{"instruction": "покажи все имена", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f3')"}
+{"instruction": "создай имя из выделения", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'f3')"}
+{"instruction": "присвоить имя диапазону", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'f3')"}
+{"instruction": "вставь имя в формулу", "output": "import pyautogui\npyautogui.hotkey('f3')"}
+{"instruction": "использовать имя", "output": "import pyautogui\npyautogui.hotkey('f3')"}
+{"instruction": "закрепи верхнюю строку и первый столбец", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'f', 'f')"}
+{"instruction": "заморозь области", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'f', 'f')"}
+{"instruction": "сними закрепление областей", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'f', 'f')"}
+{"instruction": "разморозь ячейки", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'f', 'f')"}
+{"instruction": "раздели окно", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 's')"}
+{"instruction": "разбить окно на части", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 's')"}
+{"instruction": "отследи влияющие ячейки", "output": "import pyautogui\npyautogui.hotkey('ctrl', '[')"}
+{"instruction": "покажи, от чего зависит формула", "output": "import pyautogui\npyautogui.hotkey('ctrl', '[')"}
+{"instruction": "отследи зависимые ячейки", "output": "import pyautogui\npyautogui.hotkey('ctrl', ']')"}
+{"instruction": "покажи, на что влияет эта ячейка", "output": "import pyautogui\npyautogui.hotkey('ctrl', ']')"}
+{"instruction": "вставь функцию", "output": "import pyautogui\npyautogui.hotkey('shift', 'f3')"}
+{"instruction": "открой мастер функций", "output": "import pyautogui\npyautogui.hotkey('shift', 'f3')"}
+{"instruction": "введи формулу массива", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'enter')"}
+{"instruction": "подтверди как формулу массива", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'enter')"}
+{"instruction": "добавь условное форматирование", "output": "import pyautogui\npyautogui.hotkey('alt', 'h', 'l')"}
+{"instruction": "настрой условное форматирование", "output": "import pyautogui\npyautogui.hotkey('alt', 'h', 'l')"}
+{"instruction": "очисти условное форматирование", "output": "import pyautogui\npyautogui.hotkey('alt', 'h', 'l', 'c')"}
+{"instruction": "убери правила форматирования", "output": "import pyautogui\npyautogui.hotkey('alt', 'h', 'l', 'c')"}
+{"instruction": "открой менеджер условного форматирования", "output": "import pyautogui\npyautogui.hotkey('alt', 'h', 'l', 'r')"}
+{"instruction": "покажи все правила", "output": "import pyautogui\npyautogui.hotkey('alt', 'h', 'l', 'r')"}
+{"instruction": "повтори последнее форматирование", "output": "import pyautogui\npyautogui.hotkey('f4')"}
+{"instruction": "примени то же форматирование", "output": "import pyautogui\npyautogui.hotkey('f4')"}
+{"instruction": "защити лист", "output": "import pyautogui\npyautogui.hotkey('alt', 'r', 'p', 's')"}
+{"instruction": "поставь защиту на лист", "output": "import pyautogui\npyautogui.hotkey('alt', 'r', 'p', 's')"}
+{"instruction": "защити книгу", "output": "import pyautogui\npyautogui.hotkey('alt', 'r', 'p', 'w')"}
+{"instruction": "поставь пароль на книгу", "output": "import pyautogui\npyautogui.hotkey('alt', 'r', 'p', 'w')"}
+{"instruction": "перейди в режим разметки страницы", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'p')"}
+{"instruction": "покажи как будет на печати", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'p')"}
+{"instruction": "перейди в страничный режим", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'i')"}
+{"instruction": "покажи разрывы страниц", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'i')"}
+{"instruction": "скрой сетку", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'v', 'g')"}
+{"instruction": "убери сетку", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'v', 'g')"}
+{"instruction": "скрой заголовки", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'v', 'h')"}
+{"instruction": "убери буквы и цифры столбцов и строк", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'v', 'h')"}
+{"instruction": "скрой строку формул", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'v', 'f')"}
+{"instruction": "убери строку формул", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'v', 'f')"}
+{"instruction": "измени тип диаграммы", "output": "import pyautogui\n# With chart selected\npyautogui.hotkey('alt', 'j', 'c')"}
+{"instruction": "сделай гистограмму", "output": "import pyautogui\n# With chart selected\npyautogui.hotkey('alt', 'j', 'c')"}
+{"instruction": "добавь подписи данных", "output": "import pyautogui\n# With chart selected\npyautogui.hotkey('alt', 'j', 'c', 'l')"}
+{"instruction": "покажи значения на диаграмме", "output": "import pyautogui\n# With chart selected\npyautogui.hotkey('alt', 'j', 'c', 'l')"}
+{"instruction": "проверь специальные возможности", "output": "import pyautogui\npyautogui.hotkey('alt', 'r', 'a', 'a')"}
+{"instruction": "доступность", "output": "import pyautogui\npyautogui.hotkey('alt', 'r', 'a', 'a')"}
+{"instruction": "вставь символ", "output": "import pyautogui\npyautogui.hotkey('alt', 'n', 'u')"}
+{"instruction": "открой меню символов", "output": "import pyautogui\npyautogui.hotkey('alt', 'n', 'u')"}
+{"instruction": "добавь промежуточные итоги", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'b')"}
+{"instruction": "подсчитай итоги", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'b')"}
+{"instruction": "покажи окно 'что если'", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'w')"}
+{"instruction": "анализ 'что если'", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'w')"}
+{"instruction": "открой диспетчер сценариев", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'w', 's')"}
+{"instruction": "создай новый сценарий", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'w', 's')"}
+{"instruction": "открой 'подбор параметра'", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'w', 'g')"}
+{"instruction": "подбери параметр", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'w', 'g')"}
+{"instruction": "открой 'поиск решения'", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'y')"}
+{"instruction": "найди решение", "output": "import pyautogui\npyautogui.hotkey('alt', 'a', 'y')"}
+{"instruction": "вставь вордарт", "output": "import pyautogui\npyautogui.hotkey('alt', 'n', 'w')"}
+{"instruction": "добавь красивый текст", "output": "import pyautogui\npyautogui.hotkey('alt', 'n', 'w')"}
+{"instruction": "добавь подпись", "output": "import pyautogui\npyautogui.hotkey('alt', 'n', 'x')"}
+{"instruction": "вставь строку подписи", "output": "import pyautogui\npyautogui.hotkey('alt', 'n', 'x')"}
+{"instruction": "просмотр свойств файла", "output": "import pyautogui\npyautogui.hotkey('alt', 'f', 'i')"}
+{"instruction": "информация о файле", "output": "import pyautogui\npyautogui.hotkey('alt', 'f', 'i')"}
+{"instruction": "покажи макросы", "output": "import pyautogui\npyautogui.hotkey('alt', 'f8')"}
+{"instruction": "запусти макрос", "output": "import pyautogui\npyautogui.hotkey('alt', 'f8')"}
+{"instruction": "запиши макрос", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'm', 'r')"}
+{"instruction": "начни запись макроса", "output": "import pyautogui\npyautogui.hotkey('alt', 'w', 'm', 'r')"}
+{"instruction": "открой редактор vba", "output": "import pyautogui\npyautogui.hotkey('alt', 'f11')"}
+{"instruction": "редактор visual basic", "output": "import pyautogui\npyautogui.hotkey('alt', 'f11')"}
+{"instruction": "открой параметры эксель", "output": "import pyautogui\npyautogui.hotkey('alt', 'f', 't')"}
+{"instruction": "настройки программы", "output": "import pyautogui\npyautogui.hotkey('alt', 'f', 't')"}
+{"instruction": "добавь новую таблицу на лист", "output": "import pyautogui\npyautogui.hotkey('ctrl', 't')"}
+{"instruction": "открой стим", "output": "import pyautogui\nimport time\npyautogui.press('win')\ntime.sleep(0.5)\npyautogui.write('steam')\npyautogui.press('enter')"}
+{"instruction": "запусти стим", "output": "import pyautogui\nimport time\npyautogui.press('win')\ntime.sleep(0.5)\npyautogui.write('steam')\npyautogui.press('enter')"}
+{"instruction": "перейди в библиотеку", "output": "import pyautogui\n# No universal hotkey, simulating clicks via navigation\n# This is a placeholder for a more complex sequence"}
+{"instruction": "покажи мои игры", "output": "import pyautogui\n# Placeholder for UI navigation"}
+{"instruction": "открой магазин", "output": "import pyautogui\n# Placeholder for UI navigation"}
+{"instruction": "перейти в магазин стим", "output": "import pyautogui\n# Placeholder for UI navigation"}
+{"instruction": "открой сообщество", "output": "import pyautogui\n# Placeholder for UI navigation"}
+{"instruction": "покажи хабы сообщества", "output": "import pyautogui\n# Placeholder for UI navigation"}
+{"instruction": "открой мой профиль", "output": "import pyautogui\n# Placeholder for UI navigation"}
+{"instruction": "перейти к моему профилю", "output": "import pyautogui\n# Placeholder for UI navigation"}
+{"instruction": "покажи список друзей", "output": "import pyautogui\npyautogui.hotkey('alt', 'f')"}
+{"instruction": "открой чат с друзьями", "output": "import pyautogui\npyautogui.hotkey('alt', 'f')"}
+{"instruction": "закрой окно друзей", "output": "import pyautogui\npyautogui.press('esc')"}
+{"instruction": "найди игру 'Cyberpunk 2077' в библиотеке", "output": "import pyautogui\n# Navigate to library -> search\npyautogui.write('Cyberpunk 2077')"}
+{"instruction": "поиск по библиотеке", "output": "import pyautogui\n# Navigate to library -> click search bar"}
+{"instruction": "установи игру", "output": "import pyautogui\n# Select game -> click Install"}
+{"instruction": "запусти эту игру", "output": "import pyautogui\n# Select game -> click Play"}
+{"instruction": "играть", "output": "import pyautogui\n# Select game -> click Play"}
+{"instruction": "закрой игру", "output": "import pyautogui\npyautogui.hotkey('alt', 'f4')"}
+{"instruction": "выйти из игры", "output": "import pyautogui\npyautogui.hotkey('alt', 'f4')"}
+{"instruction": "открой оверлей стим", "output": "import pyautogui\npyautogui.hotkey('shift', 'tab')"}
+{"instruction": "покажи оверлей", "output": "import pyautogui\npyautogui.hotkey('shift', 'tab')"}
+{"instruction": "закрой оверлей", "output": "import pyautogui\npyautogui.hotkey('shift', 'tab')"}
+{"instruction": "сделай скриншот в игре", "output": "import pyautogui\npyautogui.hotkey('f12')"}
+{"instruction": "заскринь этот момент", "output": "import pyautogui\npyautogui.hotkey('f12')"}
+{"instruction": "открой настройки стим", "output": "import pyautogui\npyautogui.hotkey('alt', 's')\npyautogui.press('s')"}
+{"instruction": "перейти в настройки", "output": "import pyautogui\npyautogui.hotkey('alt', 's')\npyautogui.press('s')"}
+{"instruction": "включи режим Big Picture", "output": "import pyautogui\npyautogui.hotkey('alt', 'enter')"}
+{"instruction": "режим большого экрана", "output": "import pyautogui\npyautogui.hotkey('alt', 'enter')"}
+{"instruction": "выйди из режима Big Picture", "output": "import pyautogui\npyautogui.hotkey('alt', 'enter')"}
+{"instruction": "обычный режим", "output": "import pyautogui\npyautogui.hotkey('alt', 'enter')"}
+{"instruction": "перейди в раздел загрузок", "output": "import pyautogui\n# Navigate Library -> Downloads"}
+{"instruction": "покажи мои загрузки", "output": "import pyautogui\n# Navigate Library -> Downloads"}
+{"instruction": "приостанови загрузку", "output": "import pyautogui\n# Navigate Downloads -> Pause"}
+{"instruction": "возобнови загрузку", "output": "import pyautogui\n# Navigate Downloads -> Resume"}
+{"instruction": "проверь целостность файлов игры", "output": "import pyautogui\n# Right click game -> Properties -> Local Files -> Verify"}
+{"instruction": "проверка файлов", "output": "import pyautogui\n# Right click game -> Properties -> Local Files -> Verify"}
+{"instruction": "удали эту игру", "output": "import pyautogui\n# Right click game -> Manage -> Uninstall"}
+{"instruction": "деинсталлируй игру", "output": "import pyautogui\n# Right click game -> Manage -> Uninstall"}
+{"instruction": "добавь игру в избранное", "output": "import pyautogui\n# Right click game -> Add to Favorites"}
+{"instruction": "сделай ее избранной", "output": "import pyautogui\n# Right click game -> Add to Favorites"}
+{"instruction": "скрой эту игру из библиотеки", "output": "import pyautogui\n# Right click game -> Manage -> Hide this game"}
+{"instruction": "спрячь игру", "output": "import pyautogui\n# Right click game -> Manage -> Hide this game"}
+{"instruction": "покажи скрытые игры", "output": "import pyautogui\n# View -> Hidden Games"}
+{"instruction": "где мои скрытые игры", "output": "import pyautogui\n# View -> Hidden Games"}
+{"instruction": "активируй ключ продукта", "output": "import pyautogui\n# Games -> Activate a Product on Steam"}
+{"instruction": "ввести ключ", "output": "import pyautogui\n# Games -> Activate a Product on Steam"}
+{"instruction": "создай резервную копию игры", "output": "import pyautogui\n# Steam -> Backup and Restore Games"}
+{"instruction": "сделай бэкап", "output": "import pyautogui\n# Steam -> Backup and Restore Games"}
+{"instruction": "восстанови игру из бэкапа", "output": "import pyautogui\n# Steam -> Backup and Restore Games"}
+{"instruction": "восстановить игру", "output": "import pyautogui\n# Steam -> Backup and Restore Games"}
+{"instruction": "перейди в автономный режим", "output": "import pyautogui\n# Steam -> Go Offline"}
+{"instruction": "оффлайн режим", "output": "import pyautogui\n# Steam -> Go Offline"}
+{"instruction": "выйди из стима", "output": "import pyautogui\npyautogui.hotkey('alt', 's')\npyautogui.press('x')"}
+{"instruction": "закрыть стим", "output": "import pyautogui\npyautogui.hotkey('alt', 's')\npyautogui.press('x')"}
+{"instruction": "смени статус на 'в сети'", "output": "import pyautogui\n# Friends -> Online"}
+{"instruction": "я онлайн", "output": "import pyautogui\n# Friends -> Online"}
+{"instruction": "смени статус на 'не в сети'", "output": "import pyautogui\n# Friends -> Offline"}
+{"instruction": "я оффлайн", "output": "import pyautogui\n# Friends -> Offline"}
+{"instruction": "поставь статус 'невидимый'", "output": "import pyautogui\n# Friends -> Invisible"}
+{"instruction": "стать невидимым", "output": "import pyautogui\n# Friends -> Invisible"}
+{"instruction": "открой мастерскую стим", "output": "import pyautogui\n# Community -> Workshop"}
+{"instruction": "перейти в воркшоп", "output": "import pyautogui\n# Community -> Workshop"}
+{"instruction": "открой торговую площадку", "output": "import pyautogui\n# Community -> Market"}
+{"instruction": "перейти на маркет", "output": "import pyautogui\n# Community -> Market"}
+{"instruction": "покажи мой инвентарь", "output": "import pyautogui\n# Profile -> Inventory"}
+{"instruction": "что у меня в инвентаре", "output": "import pyautogui\n# Profile -> Inventory"}
+{"instruction": "открой свой wishlist", "output": "import pyautogui\n# Store -> Wishlist"}
+{"instruction": "покажи список желаемого", "output": "import pyautogui\n# Store -> Wishlist"}
+{"instruction": "добавь игру в вишлист", "output": "import pyautogui\n# On store page -> Add to your Wishlist"}
+{"instruction": "хочу эту игру", "output": "import pyautogui\n# On store page -> Add to your Wishlist"}
+{"instruction": "пополни кошелек стим", "output": "import pyautogui\n# Account Details -> Add funds to your Steam Wallet"}
+{"instruction": "закинь денег на стим", "output": "import pyautogui\n# Account Details -> Add funds to your Steam Wallet"}
+{"instruction": "покажи мои достижения", "output": "import pyautogui\n# Profile -> Achievements"}
+{"instruction": "мои ачивки", "output": "import pyautogui\n# Profile -> Achievements"}
+{"instruction": "сверни стим", "output": "import pyautogui\npyautogui.hotkey('win', 'down')"}
+{"instruction": "разверни стим", "output": "import pyautogui\npyautogui.hotkey('win', 'up')"}
+{"instruction": "переключись на стим", "output": "import pyautogui\npyautogui.hotkey('alt', 'tab') # Cycle through windows"}
+{"instruction": "покажи окно стима", "output": "import pyautogui\npyautogui.hotkey('alt', 'tab') # Cycle through windows"}
+{"instruction": "открой консоль стим", "output": "import pyautogui\n# Needs to be enabled with -console launch option"}
+{"instruction": "консоль разработчика", "output": "import pyautogui\n# Needs to be enabled with -console launch option"}
+{"instruction": "покажи новости", "output": "import pyautogui\n# Store -> News"}
+{"instruction": "что нового в стиме", "output": "import pyautogui\n# Store -> News"}
+{"instruction": "открой настройки 'в игре'", "output": "import pyautogui\n# Settings -> In-Game"}
+{"instruction": "настройки оверлея", "output": "import pyautogui\n# Settings -> In-Game"}
+{"instruction": "открой настройки загрузок", "output": "import pyautogui\n# Settings -> Downloads"}
+{"instruction": "настройки скачивания", "output": "import pyautogui\n# Settings -> Downloads"}
+{"instruction": "измени регион загрузки", "output": "import pyautogui\n# Settings -> Downloads -> Download Region"}
+{"instruction": "смени регион", "output": "import pyautogui\n# Settings -> Downloads -> Download Region"}
+{"instruction": "очисти кэш загрузки", "output": "import pyautogui\n# Settings -> Downloads -> Clear Download Cache"}
+{"instruction": "почисти кэш", "output": "import pyautogui\n# Settings -> Downloads -> Clear Download Cache"}
+{"instruction": "включи семейный просмотр", "output": "import pyautogui\n# Settings -> Family -> Manage Family View"}
+{"instruction": "фэмили вью", "output": "import pyautogui\n# Settings -> Family -> Manage Family View"}
+{"instruction": "открой скриншоты", "output": "import pyautogui\n# View -> Screenshots"}
+{"instruction": "покажи мои скрины", "output": "import pyautogui\n# View -> Screenshots"}
+{"instruction": "добавь стороннюю игру", "output": "import pyautogui\n# Games -> Add a Non-Steam Game to My Library"}
+{"instruction": "добавить игру не из стима", "output": "import pyautogui\n# Games -> Add a Non-Steam Game to My Library"}
+{"instruction": "включи счетчик фпс", "output": "import pyautogui\n# Settings -> In-Game -> In-game FPS counter"}
+{"instruction": "покажи фпс", "output": "import pyautogui\n# Settings -> In-Game -> In-game FPS counter"}
+{"instruction": "открой веб-браузер в оверлее", "output": "import pyautogui\n# Shift+Tab -> Web Browser"}
+{"instruction": "браузер в игре", "output": "import pyautogui\n# Shift+Tab -> Web Browser"}
+{"instruction": "напиши сообщение 'го играть' другу 'Алекс'", "output": "import pyautogui\n# Open Friends -> Find 'Алекс' -> Send message"}
+{"instruction": "пригласи 'Ивана' в игру", "output": "import pyautogui\n# Open Friends -> Right click 'Иван' -> Invite to Game"}
+{"instruction": "присоединись к игре друга", "output": "import pyautogui\n# Open Friends -> Right click friend -> Join Game"}
+{"instruction": "посмотри трансляцию друга", "output": "import pyautogui\n# Open Friends -> Right click friend -> Watch Game"}
+{"instruction": "начни трансляцию", "output": "import pyautogui\n# Settings -> Broadcasting -> Start Broadcasting"}
+{"instruction": "запусти стрим", "output": "import pyautogui\n# Settings -> Broadcasting -> Start Broadcasting"}
+{"instruction": "покажи мои игры", "output": "import pyautogui\n# Placeholder for UI navigation to Library"}
+{"instruction": "где моя библиотека", "output": "import pyautogui\n# Placeholder for UI navigation to Library"}
+{"instruction": "хочу поиграть", "output": "import pyautogui\n# Placeholder for UI navigation to Library"}
+{"instruction": "перейти к списку игр", "output": "import pyautogui\n# Placeholder for UI navigation to Library"}
+{"instruction": "хочу купить игру", "output": "import pyautogui\n# Placeholder for UI navigation to Store"}
+{"instruction": "открой страницу магазина", "output": "import pyautogui\n# Placeholder for UI navigation to Store"}
+{"instruction": "что на распродаже", "output": "import pyautogui\n# Placeholder for UI navigation to Store"}
+{"instruction": "покажи форумы", "output": "import pyautogui\n# Placeholder for UI navigation to Community"}
+{"instruction": "мне нужно в сообщество", "output": "import pyautogui\n# Placeholder for UI navigation to Community"}
+{"instruction": "открой мой аккаунт", "output": "import pyautogui\n# Placeholder for UI navigation to Profile"}
+{"instruction": "посмотреть мой профиль", "output": "import pyautogui\n# Placeholder for UI navigation to Profile"}
+{"instruction": "старт", "output": "import pyautogui\n# Select game -> click Play"}
+{"instruction": "запустить выбранную игру", "output": "import pyautogui\n# Select game -> click Play"}
+{"instruction": "выход", "output": "import pyautogui\npyautogui.hotkey('alt', 'f4')"}
+{"instruction": "закрой это приложение", "output": "import pyautogui\npyautogui.hotkey('alt', 'f4')"}
+{"instruction": "настройки клиента", "output": "import pyautogui\npyautogui.hotkey('alt', 's')\npyautogui.press('s')"}
+{"instruction": "параметры", "output": "import pyautogui\npyautogui.hotkey('alt', 's')\npyautogui.press('s')"}
+{"instruction": "опции стима", "output": "import pyautogui\npyautogui.hotkey('alt', 's')\npyautogui.press('s')"}
+{"instruction": "сделай скрин", "output": "import pyautogui\npyautogui.hotkey('f12')"}
+{"instruction": "фото экрана", "output": "import pyautogui\npyautogui.hotkey('f12')"}
+{"instruction": "покажи браузер серверов", "output": "import pyautogui\n# View -> Servers"}
+{"instruction": "найди сервер", "output": "import pyautogui\n# View -> Servers"}
+{"instruction": "открой музыкальный плеер", "output": "import pyautogui\n# View -> Music Player"}
+{"instruction": "включи мою музыку", "output": "import pyautogui\n# View -> Music Player"}
+{"instruction": "настрой мой контроллер", "output": "import pyautogui\n# Settings -> Controller"}
+{"instruction": "конфигурация геймпада", "output": "import pyautogui\n# Settings -> Controller"}
+{"instruction": "включи бета-версию стима", "output": "import pyautogui\n# Settings -> Account -> Beta Participation"}
+{"instruction": "участвовать в бета-тесте", "output": "import pyautogui\n# Settings -> Account -> Beta Participation"}
+{"instruction": "настрой семейный доступ", "output": "import pyautogui\n# Settings -> Family"}
+{"instruction": "фэмили шеринг", "output": "import pyautogui\n# Settings -> Family"}
+{"instruction": "покажи последние игроки", "output": "import pyautogui\n# View -> Players"}
+{"instruction": "с кем я недавно играл", "output": "import pyautogui\n# View -> Players"}
+{"instruction": "добавь в друзья 'Ника'", "output": "import pyautogui\n# Friends -> Add a Friend -> Search for 'Ник'"}
+{"instruction": "зафренди его", "output": "import pyautogui\n# Placeholder"}
+{"instruction": "прими приглашение в друзья", "output": "import pyautogui\n# Friends -> Accept invite"}
+{"instruction": "подтверди дружбу", "output": "import pyautogui\n# Friends -> Accept invite"}
+{"instruction": "измени свой никнейм", "output": "import pyautogui\n# Friends -> Edit Profile Name"}
+{"instruction": "смени имя профиля", "output": "import pyautogui\n# Friends -> Edit Profile Name"}
+{"instruction": "установи новый аватар", "output": "import pyautogui\n# Friends -> Change Profile Picture"}
+{"instruction": "поставь другую аву", "output": "import pyautogui\n# Friends -> Change Profile Picture"}
+{"instruction": "активируй продукт по коду", "output": "import pyautogui\n# Games -> Activate a Product on Steam"}
+{"instruction": "введи цифровой ключ", "output": "import pyautogui\n# Games -> Activate a Product on Steam"}
+{"instruction": "покажи свойства этой игры", "output": "import pyautogui\n# Right click game -> Properties"}
+{"instruction": "свойства", "output": "import pyautogui\n# Right click game -> Properties"}
+{"instruction": "покажи системные требования", "output": "import pyautogui\n# On store page -> scroll to System Requirements"}
+{"instruction": "потянет ли мой пк эту игру", "output": "import pyautogui\n# On store page -> scroll to System Requirements"}
+{"instruction": "напиши отзыв об игре", "output": "import pyautogui\n# On store page -> Write a review"}
+{"instruction": "оставь рецензию", "output": "import pyautogui\n# On store page -> Write a review"}
+{"instruction": "выйди из моего аккаунта", "output": "import pyautogui\n# Steam -> Change User"}
+{"instruction": "смени пользователя", "output": "import pyautogui\n# Steam -> Change User"}
+{"instruction": "открой VSCode", "output": "import pyautogui\nimport time\npyautogui.press('win')\ntime.sleep(0.5)\npyautogui.write('vscode')\npyautogui.press('enter')"}
+{"instruction": "запусти visual studio code", "output": "import pyautogui\nimport time\npyautogui.press('win')\ntime.sleep(0.5)\npyautogui.write('vscode')\npyautogui.press('enter')"}
+{"instruction": "создай новый файл", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'n')"}
+{"instruction": "новый текстовый файл", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'n')"}
+{"instruction": "открой файл", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'o')"}
+{"instruction": "мне нужно открыть файл", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'o')"}
+{"instruction": "открой папку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', 'o')"}
+{"instruction": "открыть проект", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', 'o')"}
+{"instruction": "сохрани файл", "output": "import pyautogui\npyautogui.hotkey('ctrl', 's')"}
+{"instruction": "сохранить текущий файл", "output": "import pyautogui\npyautogui.hotkey('ctrl', 's')"}
+{"instruction": "сохрани как", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 's')"}
+{"instruction": "сохранить под новым именем", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 's')"}
+{"instruction": "сохрани все открытые файлы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.press('s')"}
+{"instruction": "сохранить все", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.press('s')"}
+{"instruction": "закрой этот файл", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'w')"}
+{"instruction": "закрой текущий редактор", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'w')"}
+{"instruction": "закрой папку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.press('f')"}
+{"instruction": "закрой проект", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.press('f')"}
+{"instruction": "закрой все редакторы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', 'w')"}
+{"instruction": "закрой все открытые файлы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', 'w')"}
+{"instruction": "открой новое окно", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'n')"}
+{"instruction": "новое окно vscode", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'n')"}
+{"instruction": "закрой окно", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'w')"}
+{"instruction": "полностью закрой vscode", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'w')"}
+{"instruction": "покажи боковую панель", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'b')"}
+{"instruction": "скрой боковую панель", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'b')"}
+{"instruction": "переключи видимость сайдбара", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'b')"}
+{"instruction": "открой проводник", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'e')"}
+{"instruction": "покажи файлы проекта", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'e')"}
+{"instruction": "открой поиск по проекту", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'f')"}
+{"instruction": "глобальный поиск", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'f')"}
+{"instruction": "открой панель Git", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'g')"}
+{"instruction": "система контроля версий", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'g')"}
+{"instruction": "открой панель отладки", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'd')"}
+{"instruction": "покажи отладчик", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'd')"}
+{"instruction": "покажи расширения", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'x')"}
+{"instruction": "открой маркетплейс расширений", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'x')"}
+{"instruction": "открой терминал", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')"}
+{"instruction": "покажи консоль", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')"}
+{"instruction": "закрой терминал", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')"}
+{"instruction": "создай новый терминал", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '`')"}
+{"instruction": "еще один терминал", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '`')"}
+{"instruction": "открой командную палитру", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'p')"}
+{"instruction": "палитра команд", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'p')"}
+{"instruction": "открой поиск файлов", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'p')"}
+{"instruction": "перейти к файлу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'p')"}
+{"instruction": "покажи проблемы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'm')"}
+{"instruction": "список ошибок и предупреждений", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'm')"}
+{"instruction": "покажи панель вывода", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'u')"}
+{"instruction": "открой output", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'u')"}
+{"instruction": "отмени действие", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'z')"}
+{"instruction": "верни назад", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'z')"}
+{"instruction": "повтори отмененное действие", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'y')"}
+{"instruction": "верни вперед", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'y')"}
+{"instruction": "вырежи строку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'x')"}
+{"instruction": "скопируй строку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'c')"}
+{"instruction": "вставь из буфера", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'v')"}
+{"instruction": "выдели всю строку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'l')"}
+{"instruction": "выбрать строку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'l')"}
+{"instruction": "удали строку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'k')"}
+{"instruction": "сотри эту строчку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'k')"}
+{"instruction": "вставь строку ниже", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'enter')"}
+{"instruction": "перейди на новую строку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'enter')"}
+{"instruction": "вставь строку выше", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'enter')"}
+{"instruction": "добавь пустую строку сверху", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'enter')"}
+{"instruction": "перемести строку вверх", "output": "import pyautogui\npyautogui.hotkey('alt', 'up')"}
+{"instruction": "подними эту строку", "output": "import pyautogui\npyautogui.hotkey('alt', 'up')"}
+{"instruction": "перемести строку вниз", "output": "import pyautogui\npyautogui.hotkey('alt', 'down')"}
+{"instruction": "опусти эту строку", "output": "import pyautogui\npyautogui.hotkey('alt', 'down')"}
+{"instruction": "скопируй строку вверх", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'up')"}
+{"instruction": "дублируй строку сверху", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'up')"}
+{"instruction": "скопируй строку вниз", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'down')"}
+{"instruction": "дублируй строку снизу", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'down')"}
+{"instruction": "закомментируй строку", "output": "import pyautogui\npyautogui.hotkey('ctrl', '/')"}
+{"instruction": "добавь комментарий", "output": "import pyautogui\npyautogui.hotkey('ctrl', '/')"}
+{"instruction": "раскомментируй", "output": "import pyautogui\npyautogui.hotkey('ctrl', '/')"}
+{"instruction": "убери комментарий", "output": "import pyautogui\npyautogui.hotkey('ctrl', '/')"}
+{"instruction": "сделай блочный комментарий", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'a')"}
+{"instruction": "закомментируй этот блок", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'a')"}
+{"instruction": "добавь отступ", "output": "import pyautogui\npyautogui.press('tab')"}
+{"instruction": "уменьши отступ", "output": "import pyautogui\npyautogui.hotkey('shift', 'tab')"}
+{"instruction": "перейти в начало строки", "output": "import pyautogui\npyautogui.press('home')"}
+{"instruction": "перейти в конец строки", "output": "import pyautogui\npyautogui.press('end')"}
+{"instruction": "перейти в начало файла", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'home')"}
+{"instruction": "перейти в конец файла", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'end')"}
+{"instruction": "перейти на строку 50", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'g')\npyautogui.write('50')\npyautogui.press('enter')"}
+{"instruction": "открой сотую строку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'g')\npyautogui.write('100')\npyautogui.press('enter')"}
+{"instruction": "поиск по файлу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')"}
+{"instruction": "найди слово в этом файле", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'f')"}
+{"instruction": "замена в файле", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'h')"}
+{"instruction": "найти и заменить в текущем файле", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'h')"}
+{"instruction": "увеличь масштаб", "output": "import pyautogui\npyautogui.hotkey('ctrl', '=')"}
+{"instruction": "приблизь", "output": "import pyautogui\npyautogui.hotkey('ctrl', '=')"}
+{"instruction": "уменьши масштаб", "output": "import pyautogui\npyautogui.hotkey('ctrl', '-')"}
+{"instruction": "отдалить", "output": "import pyautogui\npyautogui.hotkey('ctrl', '-')"}
+{"instruction": "сбрось масштаб", "output": "import pyautogui\npyautogui.hotkey('ctrl', '0')"}
+{"instruction": "верни масштаб по умолчанию", "output": "import pyautogui\npyautogui.hotkey('ctrl', '0')"}
+{"instruction": "перейди к определению функции", "output": "import pyautogui\npyautogui.hotkey('f12')"}
+{"instruction": "где объявлена эта переменная", "output": "import pyautogui\npyautogui.hotkey('f12')"}
+{"instruction": "покажи определение в всплывающем окне", "output": "import pyautogui\npyautogui.hotkey('alt', 'f12')"}
+{"instruction": "быстрый просмотр определения", "output": "import pyautogui\npyautogui.hotkey('alt', 'f12')"}
+{"instruction": "найди все использования этого символа", "output": "import pyautogui\npyautogui.hotkey('shift', 'f12')"}
+{"instruction": "покажи все ссылки на эту функцию", "output": "import pyautogui\npyautogui.hotkey('shift', 'f12')"}
+{"instruction": "перейти к символу в файле", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'o')"}
+{"instruction": "найди функцию в этом файле", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'o')"}
+{"instruction": "перейти к символу в проекте", "output": "import pyautogui\npyautogui.hotkey('ctrl', 't')"}
+{"instruction": "глобальный поиск по символам", "output": "import pyautogui\npyautogui.hotkey('ctrl', 't')"}
+{"instruction": "перейти к следующей ошибке", "output": "import pyautogui\npyautogui.hotkey('f8')"}
+{"instruction": "покажи следующую проблему", "output": "import pyautogui\npyautogui.hotkey('f8')"}
+{"instruction": "перейти к предыдущей ошибке", "output": "import pyautogui\npyautogui.hotkey('shift', 'f8')"}
+{"instruction": "предыдущая проблема в коде", "output": "import pyautogui\npyautogui.hotkey('shift', 'f8')"}
+{"instruction": "перейти к парной скобке", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '\\\\')"}
+{"instruction": "найди закрывающую скобку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '\\\\')"}
+{"instruction": "вернись к предыдущей позиции курсора", "output": "import pyautogui\npyautogui.hotkey('alt', 'left')"}
+{"instruction": "шаг назад по навигации", "output": "import pyautogui\npyautogui.hotkey('alt', 'left')"}
+{"instruction": "перейди вперед по навигации", "output": "import pyautogui\npyautogui.hotkey('alt', 'right')"}
+{"instruction": "шаг вперед по истории курсора", "output": "import pyautogui\npyautogui.hotkey('alt', 'right')"}
+{"instruction": "отформатируй документ", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'f')"}
+{"instruction": "сделай код красивым", "output": "import pyautogui\npyautogui.hotkey('alt', 'shift', 'f')"}
+{"instruction": "отформатируй выделенный фрагмент", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', 'f')"}
+{"instruction": "отформатируй этот блок", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', 'f')"}
+{"instruction": "найди во всех файлах 'TODO'", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'f')\npyautogui.write('TODO')"}
+{"instruction": "поиск по всему проекту", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'f')"}
+{"instruction": "замени везде 'var' на 'let'", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'h')\npyautogui.write('var')\npyautogui.press('tab')\npyautogui.write('let')"}
+{"instruction": "глобальная замена", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'h')"}
+{"instruction": "покажи все команды", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'p')"}
+{"instruction": "открой палитру команд", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'p')"}
+{"instruction": "смени язык файла на 'Python'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Change Language Mode')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('Python')\npyautogui.press('enter')"}
+{"instruction": "укажи что это питон", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Change Language Mode')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('Python')\npyautogui.press('enter')"}
+{"instruction": "смени тему оформления на светлую", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Color Theme')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('Light')\npyautogui.press('enter')"}
+{"instruction": "поставь светлую тему", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Color Theme')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('Light')\npyautogui.press('enter')"}
+{"instruction": "открой настройки в формате JSON", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Open Settings (JSON)')\npyautogui.press('enter')"}
+{"instruction": "покажи settings.json", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Open Settings (JSON)')\npyautogui.press('enter')"}
+{"instruction": "установи расширение 'Prettier'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'x')\ntime.sleep(0.5)\npyautogui.write('Prettier')\npyautogui.press('enter')"}
+{"instruction": "найди плагин 'Prettier'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'x')\ntime.sleep(0.5)\npyautogui.write('Prettier')\npyautogui.press('enter')"}
+{"instruction": "сделай коммит", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Commit')\npyautogui.press('enter')"}
+{"instruction": "закоммить изменения", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Commit')\npyautogui.press('enter')"}
+{"instruction": "отправь изменения на сервер", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Push')\npyautogui.press('enter')"}
+{"instruction": "запушь коммиты", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Push')\npyautogui.press('enter')"}
+{"instruction": "получи изменения с сервера", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Pull')\npyautogui.press('enter')"}
+{"instruction": "запулль изменения", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Pull')\npyautogui.press('enter')"}
+{"instruction": "синхронизируй изменения", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Sync')\npyautogui.press('enter')"}
+{"instruction": "сделай синк", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Sync')\npyautogui.press('enter')"}
+{"instruction": "создай новую ветку", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Create Branch')\npyautogui.press('enter')"}
+{"instruction": "новая ветка", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Create Branch')\npyautogui.press('enter')"}
+{"instruction": "переключись на другую ветку", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Checkout to...')\npyautogui.press('enter')"}
+{"instruction": "сделай чекаут", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Checkout to...')\npyautogui.press('enter')"}
+{"instruction": "покажи все изменения Git", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'g')"}
+{"instruction": "что я поменял", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'g')"}
+{"instruction": "добавь все файлы в индекс", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Stage All Changes')\npyautogui.press('enter')"}
+{"instruction": "застейджи все", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Stage All Changes')\npyautogui.press('enter')"}
+{"instruction": "убери файлы из индекса", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Unstage All Changes')\npyautogui.press('enter')"}
+{"instruction": "анстейдж", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Unstage All Changes')\npyautogui.press('enter')"}
+{"instruction": "спрячь изменения", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Stash')\npyautogui.press('enter')"}
+{"instruction": "сделай стеш", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Stash')\npyautogui.press('enter')"}
+{"instruction": "примени последние спрятанные изменения", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Pop Stash')\npyautogui.press('enter')"}
+{"instruction": "поп стеш", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Pop Stash')\npyautogui.press('enter')"}
+{"instruction": "переименуй этот символ", "output": "import pyautogui\npyautogui.hotkey('f2')"}
+{"instruction": "сделай рефакторинг имени", "output": "import pyautogui\npyautogui.hotkey('f2')"}
+{"instruction": "быстрое исправление", "output": "import pyautogui\npyautogui.hotkey('ctrl', '.')"}
+{"instruction": "покажи варианты исправления", "output": "import pyautogui\npyautogui.hotkey('ctrl', '.')"}
+{"instruction": "раздели редактор", "output": "import pyautogui\npyautogui.hotkey('ctrl', '\\\\')"}
+{"instruction": "покажи два файла рядом", "output": "import pyautogui\npyautogui.hotkey('ctrl', '\\\\')"}
+{"instruction": "переключись на левую группу редакторов", "output": "import pyautogui\npyautogui.hotkey('ctrl', '1')"}
+{"instruction": "фокус на левый редактор", "output": "import pyautogui\npyautogui.hotkey('ctrl', '1')"}
+{"instruction": "переключись на правую группу редакторов", "output": "import pyautogui\npyautogui.hotkey('ctrl', '2')"}
+{"instruction": "фокус на правый редактор", "output": "import pyautogui\npyautogui.hotkey('ctrl', '2')"}
+{"instruction": "сверни все функции в файле", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', '0')"}
+{"instruction": "свернуть все регионы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', '0')"}
+{"instruction": "разверни все функции в файле", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', 'j')"}
+{"instruction": "развернуть все регионы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', 'j')"}
+{"instruction": "сверни текущий блок", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '[')"}
+{"instruction": "разверни текущий блок", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', ']')"}
+{"instruction": "включи режим дзен", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.press('z')"}
+{"instruction": "режим без отвлечений", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.press('z')"}
+{"instruction": "выйди из режима дзен", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.press('z')"}
+{"instruction": "покажи превью markdown файла", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'v')"}
+{"instruction": "открой превью", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'v')"}
+{"instruction": "открой превью рядом", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.press('v')"}
+{"instruction": "предпросмотр markdown в соседнем окне", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.press('v')"}
+{"instruction": "закрой все редакторы в группе", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', 'w')"}
+{"instruction": "закрой все файлы в этой панели", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', 'w')"}
+{"instruction": "добавь курсор выше", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'up')"}
+{"instruction": "еще один курсор сверху", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'up')"}
+{"instruction": "добавь курсор ниже", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'down')"}
+{"instruction": "еще один курсор снизу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'down')"}
+{"instruction": "выдели все вхождения этого слова", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'l')"}
+{"instruction": "добавь курсоры ко всем совпадениям", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'l')"}
+{"instruction": "начни отладку", "output": "import pyautogui\npyautogui.hotkey('f5')"}
+{"instruction": "запусти дебаггер", "output": "import pyautogui\npyautogui.hotkey('f5')"}
+{"instruction": "продолжи выполнение", "output": "import pyautogui\npyautogui.hotkey('f5')"}
+{"instruction": "останови отладку", "output": "import pyautogui\npyautogui.hotkey('shift', 'f5')"}
+{"instruction": "стоп дебаг", "output": "import pyautogui\npyautogui.hotkey('shift', 'f5')"}
+{"instruction": "перезапусти отладку", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'f5')"}
+{"instruction": "рестарт дебаггера", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'f5')"}
+{"instruction": "шагни через строку", "output": "import pyautogui\npyautogui.hotkey('f10')"}
+{"instruction": "шаг с обходом", "output": "import pyautogui\npyautogui.hotkey('f10')"}
+{"instruction": "шагни внутрь функции", "output": "import pyautogui\npyautogui.hotkey('f11')"}
+{"instruction": "шаг с заходом", "output": "import pyautogui\npyautogui.hotkey('f11')"}
+{"instruction": "выйди из функции", "output": "import pyautogui\npyautogui.hotkey('shift', 'f11')"}
+{"instruction": "шаг с выходом", "output": "import pyautogui\npyautogui.hotkey('shift', 'f11')"}
+{"instruction": "поставь точку останова", "output": "import pyautogui\npyautogui.hotkey('f9')"}
+{"instruction": "поставь брейкпоинт", "output": "import pyautogui\npyautogui.hotkey('f9')"}
+{"instruction": "убери точку останова", "output": "import pyautogui\npyautogui.hotkey('f9')"}
+{"instruction": "удали брейкпоинт", "output": "import pyautogui\npyautogui.hotkey('f9')"}
+{"instruction": "открой консоль отладки", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'y')"}
+{"instruction": "покажи дебаг консоль", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'y')"}
+{"instruction": "добавь условную точку останова", "output": "import pyautogui\n# Right-click gutter -> Add Conditional Breakpoint"}
+{"instruction": "покажи переменные", "output": "import pyautogui\n# In debug view, navigate to variables pane"}
+{"instruction": "что в этой переменной", "output": "import pyautogui\n# Hover over variable or check watch pane"}
+{"instruction": "добавь выражение для отслеживания", "output": "import pyautogui\n# In debug view, navigate to watch pane -> Add expression"}
+{"instruction": "отследи эту переменную", "output": "import pyautogui\n# In debug view, navigate to watch pane -> Add expression"}
+{"instruction": "покажи стек вызовов", "output": "import pyautogui\n# In debug view, navigate to call stack pane"}
+{"instruction": "где мы находимся", "output": "import pyautogui\n# In debug view, navigate to call stack pane"}
+{"instruction": "добавь курсор на строку выше", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'up')"}
+{"instruction": "поставь еще один курсор сверху", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'up')"}
+{"instruction": "добавь курсор на строку ниже", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'down')"}
+{"instruction": "еще курсор снизу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'down')"}
+{"instruction": "выдели следующее такое же слово", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'd')"}
+{"instruction": "найди следующее вхождение и выдели", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'd')"}
+{"instruction": "пропусти это вхождение", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', 'd')"}
+{"instruction": "не выделяй это, ищи дальше", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', 'd')"}
+{"instruction": "добавь курсоры в концы выделенных строк", "output": "import pyautogui\npyautogui.hotkey('shift', 'alt', 'i')"}
+{"instruction": "множественные курсоры в конце строк", "output": "import pyautogui\npyautogui.hotkey('shift', 'alt', 'i')"}
+{"instruction": "расширь выделение", "output": "import pyautogui\npyautogui.hotkey('shift', 'alt', 'right')"}
+{"instruction": "увеличь область выделения", "output": "import pyautogui\npyautogui.hotkey('shift', 'alt', 'right')"}
+{"instruction": "сузь выделение", "output": "import pyautogui\npyautogui.hotkey('shift', 'alt', 'left')"}
+{"instruction": "уменьши область выделения", "output": "import pyautogui\npyautogui.hotkey('shift', 'alt', 'left')"}
+{"instruction": "включи режим блочного выделения", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'alt', 'down')"}
+{"instruction": "выделение столбцом", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', 'alt', 'down')"}
+{"instruction": "сохранись-ка", "output": "import pyautogui\npyautogui.hotkey('ctrl', 's')"}
+{"instruction": "так, надо сохранить", "output": "import pyautogui\npyautogui.hotkey('ctrl', 's')"}
+{"instruction": "коммит с сообщением 'фикс бага'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Commit')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('фикс бага')\npyautogui.hotkey('ctrl', 'enter')"}
+{"instruction": "закоммить как 'рефакторинг'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'g')\ntime.sleep(0.5)\npyautogui.write('рефакторинг')\npyautogui.hotkey('ctrl', 'enter')"}
+{"instruction": "переключись на ветку 'develop'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Checkout to...')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('develop')\npyautogui.press('enter')"}
+{"instruction": "чекаут на develop", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Checkout to...')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('develop')\npyautogui.press('enter')"}
+{"instruction": "создай ветку 'feature/new-button'", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Create Branch')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('feature/new-button')\npyautogui.press('enter')"}
+{"instruction": "открой файл package.json", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'p')\npyautogui.write('package.json')\npyautogui.press('enter')"}
+{"instruction": "мне нужен файл gitignore", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'p')\npyautogui.write('.gitignore')\npyautogui.press('enter')"}
+{"instruction": "выполни команду 'npm install' в терминале", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')\ntime.sleep(1)\npyautogui.write('npm install')\npyautogui.press('enter')"}
+{"instruction": "запусти 'npm run dev'", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')\ntime.sleep(1)\npyautogui.write('npm run dev')\npyautogui.press('enter')"}
+{"instruction": "проверь статус гита", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')\ntime.sleep(1)\npyautogui.write('git status')\npyautogui.press('enter')"}
+{"instruction": "останови сервер в терминале", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')\ntime.sleep(1)\npyautogui.hotkey('ctrl', 'c')"}
+{"instruction": "убей процесс в терминале", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')\ntime.sleep(1)\npyautogui.hotkey('ctrl', 'c')"}
+{"instruction": "очисти терминал", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')\ntime.sleep(1)\npyautogui.write('cls')\npyautogui.press('enter')"}
+{"instruction": "почисти консоль", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')\ntime.sleep(1)\npyautogui.write('clear')\npyautogui.press('enter')"}
+{"instruction": "раздели терминал", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '5')"}
+{"instruction": "мне нужен второй терминал рядом", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'shift', '5')"}
+{"instruction": "убей активный терминал", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Terminal: Kill the Active Terminal Instance')\npyautogui.press('enter')"}
+{"instruction": "закрой этот сплит терминала", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Terminal: Kill the Active Terminal Instance')\npyautogui.press('enter')"}
+{"instruction": "переключи фокус на терминал", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')"}
+{"instruction": "я хочу писать в терминал", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')"}
+{"instruction": "прокрути терминал вверх", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')\ntime.sleep(0.5)\npyautogui.hotkey('ctrl', 'up')"}
+{"instruction": "листани консоль вверх", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')\ntime.sleep(0.5)\npyautogui.hotkey('ctrl', 'pageup')"}
+{"instruction": "прокрути терминал вниз", "output": "import pyautogui\npyautogui.hotkey('ctrl', '`')\ntime.sleep(0.5)\npyautogui.hotkey('ctrl', 'down')"}
+{"instruction": "проверь на наличие обновлений", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Check for Updates')\npyautogui.press('enter')"}
+{"instruction": "перезагрузи окно", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Reload Window')\npyautogui.press('enter')"}
+{"instruction": "сделай релоад", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Reload Window')\npyautogui.press('enter')"}
+{"instruction": "открой файл с настройками клавиатуры", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Open Keyboard Shortcuts (JSON)')\npyautogui.press('enter')"}
+{"instruction": "покажи json с хоткеями", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Open Keyboard Shortcuts (JSON)')\npyautogui.press('enter')"}
+{"instruction": "закрой все редакторы слева", "output": "import pyautogui\n# Placeholder, requires multiple Ctrl+W or specific command"}
+{"instruction": "создай регион для сворачивания", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', 'shift', '[')"}
+{"instruction": "сверни этот регион", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', '[')"}
+{"instruction": "разверни этот регион", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'k')\npyautogui.hotkey('ctrl', ']')"}
+{"instruction": "быстро открой последние файлы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'p')"}
+{"instruction": "покажи недавние файлы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'p')"}
+{"instruction": "переключись между файлами", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'tab')"}
+{"instruction": "покажи открытые редакторы", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'tab')"}
+{"instruction": "перемести редактор в левую группу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'left')"}
+{"instruction": "перемести редактор в правую группу", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'alt', 'right')"}
+{"instruction": "сделай слияние ветки 'feature' в текущую", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Merge Branch...')\npyautogui.press('enter')\ntime.sleep(0.5)\npyautogui.write('feature')\npyautogui.press('enter')"}
+{"instruction": "смерджи ветку", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: Merge Branch...')\npyautogui.press('enter')"}
+{"instruction": "покажи историю коммитов для файла", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: View File History')\npyautogui.press('enter')"}
+{"instruction": "история файла", "output": "import pyautogui\nimport time\npyautogui.hotkey('ctrl', 'shift', 'p')\ntime.sleep(0.5)\npyautogui.write('Git: View File History')\npyautogui.press('enter')"}
+{"instruction": "открой файл в новой вкладке", "output": "import pyautogui\npyautogui.hotkey('ctrl', 'enter') # On a file in the explorer"}
